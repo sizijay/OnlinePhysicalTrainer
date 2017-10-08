@@ -3,7 +3,8 @@
 		<!-- header -->
                  <div class="header-inner">
 					  <h1 class="logo">
-						<a href="index.html"><span><font size="2">Department of Physical Education</font></span>University of Colombo</a></h1>
+						<a href="index.html"><span><font size="2">University of Colombo</font></span>
+						Department of Physical Education</a></h1>
 						<nav class="navbar navbar-default">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
