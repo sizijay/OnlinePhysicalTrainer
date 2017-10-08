@@ -23,7 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
     <div id="single">
 <!--about-->
-        <div data-target="about" class="about" id="about">
+        <div style="position: relative; top: -55px ; data-target="about" class="about" id="about">
         	<?php include "header.php" ?>
             <div class="container">
 			<h3 class="title-w3-agile">About Us</h3>
