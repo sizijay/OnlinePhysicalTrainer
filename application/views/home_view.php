@@ -61,14 +61,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- //banner-slider -->
                 <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
-			<div class="agileits-social">
-					<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
-				</div>
+			
+				<?php include "footer.php" ?>
         </div>
     </div>
 </body>

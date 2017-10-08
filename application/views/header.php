@@ -4,7 +4,7 @@
                  <div class="header-inner">
 					  <h1 class="logo">
 						<a href="<?php echo base_url();?>/index.php/home"><span><font size="2">University of Colombo</font></span>
-						Department of Physical Education</a></h1>
+						Online Physical Trainer</a></h1>
 						<nav class="navbar navbar-default">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

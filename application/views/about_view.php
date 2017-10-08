@@ -23,7 +23,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
     <div id="single">
 <!--about-->
-        <div style="position: relative; top: -55px ; data-target="about" class="about" id="about">
+        <div style="position: relative; top: -55px" ; 
+        data-target="about" class="about" id="about">
         	<?php include "header.php" ?>
             <div class="container">
 			<h3 class="title-w3-agile">About Us</h3>
@@ -59,15 +60,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- //banner-slider -->
                 <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
-			<div class="agileits-social">
-					<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-						</ul>
-				</div>
+			
         </div>
     </div>
+
+<?php include "footer.php" ?>
+
+
 </body>
 </html>
