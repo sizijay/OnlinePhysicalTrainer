@@ -18,10 +18,10 @@
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
 									<li><a href="<?php echo base_url();?>/index.php/home" data-anchor="active">Home</a></li>
-									<li><a href="<?php echo base_url();?>/index.php/about" data-anchor="about">About</a></li>
-									<li><a href="<?php echo base_url();?>/index.php/exercise" data-anchor="classes">Trainning Programes</a></li>
-									<li><a href="#" data-anchor="clients">Nutrition Plans</a></li>
-									<li><a href="#" data-anchor="gallery">Reviews</a></li>
+									<li><a href="<?php echo base_url();?>/index.php/about">About</a></li>
+									<li><a href="<?php echo base_url();?>/index.php/exercise">Trainning Programes</a></li>
+									<li><a href="<?php echo base_url();?>/index.php/nutrition">Nutrition Plans</a></li>
+									<li><a href="<?php echo base_url();?>/index.php/reviews">Reviews</a></li>
 									<li><a href="#" data-anchor="contact" >Contact</a></li>
 									<li><a href="#" data-anchor="contact" >Login</a></li>
 								</ul>
