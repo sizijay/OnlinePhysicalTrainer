@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/4.jpg">
-							<img src="images/4.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/4.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/5.jpg">
-							<img src="images/5.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/5.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/6.jpg">
-							<img src="images/6.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/6.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/7.jpg">
-							<img src="images/7.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/7.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -100,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/8.jpg">
-							<img src="images/8.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/8.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -109,7 +109,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/9.jpg">
-							<img src="images/9.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/9.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -120,7 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 agileits_portfolio_grid">
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/10.jpg">
-							<img src="images/10.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/10.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
@@ -129,7 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="agileinfo_portfolio_grid hovereffect">
 						<a class="cm-overlay" href="<?php echo base_url();?>/images/11.jpg">
-							<img src="images/11.jpg" alt=" " class="img-responsive">
+							<img src="<?php echo base_url();?>/images/11.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
 								<p>Aliquam in dolor.</p> 
