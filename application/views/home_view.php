@@ -20,11 +20,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 <!--//fonts-->
 </head>
+<?php include "header.php" ?>
 <body>
     <div id="single">
 <!--home-->
         <div data-target="home" class="banner-w3ls" id="home">
-        	<?php include "header.php" ?>
+        	
 			<div class="container">
 			<!-- banner-slider -->
 			<div class="w3l_banner_info" >
@@ -62,8 +63,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
 			
-				<?php include "footer.php" ?>
+				
         </div>
+<?php include "footer.php" ?>
     </div>
+
 </body>
+
 </html>

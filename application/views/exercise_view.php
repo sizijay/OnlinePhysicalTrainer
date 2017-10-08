@@ -20,15 +20,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 <!--//fonts-->
 </head>
+<?php include "header.php" ?>
 <body>
     <div id="single">
 <!--about-->
-        <div style="position: relative; top: -55px ; data-target="exercise" class="exercise" id="exercise">
-        	<?php include "header.php" ?>
+        <div data-target="exercise" class="exercise" id="exercise">
+        	
             <!--section3-->
         
            <div class="container">
-		   <h3 class="title-w3-agile">Classes</h3>
+		   <h2 class="title-w3-agile">Classes</h2>
 		   <div class="classes_wrapper">
 		 	<div class="row class_box">
  			  <div class="col-md-6 classes-grid-w3ls">
@@ -128,7 +129,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
  		</div>
 <!--//section3-->
-    </div>
+    
+
     
 </body>
+<?php include "footer.php" ?>
 </html>
