@@ -24,19 +24,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
     <div id="single">
 <!--about-->
-<<<<<<< HEAD
+
         <div data-target="exercise" class="exercise" id="exercise">
         	
             <!--section3-->
         
-=======
-        <div style="position: relative; top: -55px ; data-target="about" class="about" id="about">
-        	<?php include "header.php" ?>
+        <div data-target="about" class="about" id="about">
+        	
         <!--section3-->
         <div data-target="classes" class="classes" id="classes">
->>>>>>> origin/master
            <div class="container">
-		   <h2 class="title-w3-agile">Classes</h2>
+		   <h3 class="title-w3-agile">Classes</h3>
 		   <div class="classes_wrapper">
 		 	<div class="row class_box">
  			  <div class="col-md-6 classes-grid-w3ls">
@@ -136,15 +134,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
  	</div>
 <!--//section3-->
-<<<<<<< HEAD
+
     
 
     
-=======
+
     </div>
     </div>
-        <?php include "footer.php" ?>
->>>>>>> origin/master
+        
+
 </body>
 <?php include "footer.php" ?>
 </html>
