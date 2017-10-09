@@ -151,11 +151,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 <!-- //gallery -->
 </div>
-
+<?php include "footer.php" ?>
 </div>
 
 
 
 </body>
-<?php include "footer.php" ?>
+
 </html>
