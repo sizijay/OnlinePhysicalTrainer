@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>About Us
+<title>Contact
 </title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +22,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <?php include "header.php" ?>
 <body>
+<div id="single">
+<div data-target="about" class="about" id="about">
 <div class="contact-w3layouts">
 <div class="container">
 <div class="col-md-6 contact-agileits-w3layouts-left">
@@ -46,9 +48,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 </div>
 
-
+</div>
+<?php include "footer.php" ?>
+</div>
 
 
 </body>
-<?php include "footer.php" ?>
+
+
 </html>
