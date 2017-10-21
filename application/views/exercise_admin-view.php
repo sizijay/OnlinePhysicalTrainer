@@ -129,7 +129,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			    </div>
 			   <div class="clearfix"></div>
 			 </div>
-		
+			<div class="clearfix-fix"></div>
+			  <p> <a href="#" data-anchor="about" class="btn-normal">Edit</a> </p>
+		   </div>
 		</div>
  	</div>
 <!--//section3-->
