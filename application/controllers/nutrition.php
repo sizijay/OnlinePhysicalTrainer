@@ -1,6 +1,6 @@
 <?php
-if (! Defined ('BASEPATH')) 
-	
+if (! Defined ('BASEPATH'))
+
 exit ('No direct script access allowed');
 
 Class nutrition extends CI_Controller {
