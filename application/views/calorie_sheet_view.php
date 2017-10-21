@@ -78,62 +78,66 @@ height: 'auto',
 <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - September 21, 2013!</div>
   <div class="container_12">
     <div class="grid_12">
-      <h3 class="mb0">Featured Products</h3>
+      <h3 class="mb0">Featured Food Types</h3>
     </div>
     <div class="clear"></div>
     <div class="prod">
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big1.jpg" class="gal"><img src="images/page2_img1.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big1.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img1.jpg" alt=""></a><a href="#">Contains 50-60 calories in 100g. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big2.jpg" class="gal"><img src="images/page2_img2.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big2.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img2.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big3.jpg" class="gal"><img src="images/page2_img3.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big3.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img3.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big4.jpg" class="gal"><img src="images/page2_img4.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big5.jpg" class="gal"><img src="images/page2_img5.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big6.jpg" class="gal"><img src="images/page2_img6.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big7.jpg" class="gal"><img src="images/page2_img7.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big8.jpg" class="gal"><img src="images/page2_img8.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big4.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img4.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
         </div>
       </div>
       <div class="clear"></div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big9.jpg" class="gal"><img src="images/page2_img9.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big5.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img5.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big10.jpg" class="gal"><img src="images/page2_img10.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big6.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img6.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big7.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img7.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big8.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img8.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big9.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img9.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big10.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img10.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+</body>
+<?php include "footer.php" ?>
+</html>

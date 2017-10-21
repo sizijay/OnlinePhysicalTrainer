@@ -105,7 +105,7 @@ height: 'auto',
           </ul>
 
           <nav>
-            <a href="#">Calorie Sheet</a>
+            <a href="<?php echo base_url();?>/index.php/calorie_sheet">Calorie Sheet</a>
             <a href="#">Meals</a>
             <a href="#">Comments</a>
           </nav>
