@@ -133,17 +133,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <p> <a href="#" data-anchor="about" class="btn-normal">Edit</a> </p>
 		   </div>
 		</div>
+		<div class="clearfix"></div>
+		<!-- //banner-slider -->
+					<p> <a href="#" data-anchor="about" class="btn-normal">Edit Exercises</a> </p>
+		</div>
  	</div>
 <!--//section3-->
-
-
-
-
-
     </div>
     </div>
-
-
 </body>
 <?php include "footer.php" ?>
 </html>

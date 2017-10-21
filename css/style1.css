@@ -261,8 +261,9 @@ h1.logo a{
 .navbar-nav > li {
    margin: 0 7px;
 }
+
 .navbar-default .navbar-nav > li > a {
-    color: #bfb992;
+    color: #99abd5;
     font-size: 17px;
     padding: 1em 1.5em;
     letter-spacing: 1px;
@@ -287,6 +288,7 @@ ul.nav.navbar-nav.navbar-right li:nth-child(6) a {
 .navbar-collapse {
     padding: 0!important;
 }
+
 /*--//header--*/
 
 /*Content*/
@@ -355,7 +357,7 @@ a.prev1,a.next1 {
 }
 
 a.prev1:hover ,a.next1:hover {
-	opacity: 0.55;
+	opacity: 0.5;
 }
 
 a.next1 {

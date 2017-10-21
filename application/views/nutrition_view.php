@@ -77,13 +77,16 @@ height: 'auto',
 
 
 <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - September 21, 2013!</div>
+
   <div class="container_12">
+
     <div class="grid_8 prefix_2">
+
       <div id="mi-slider" class="mi-slider">
+
           <ul>
             <li><a href="#"><img src="<?php echo base_url();?>/images/fruit1.jpg" alt=""></a></li>
             <li><a href="#"><img src="<?php echo base_url();?>/images/fruit2.jpg" alt=""></a></li>
-            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/fruit3.jpg" alt=""></a></li>-->
           </ul>
           <ul>
             <li class=""><a href="#"><img src="<?php echo base_url();?>/images/veg1.jpg" alt=""></a></li>
@@ -102,15 +105,15 @@ height: 'auto',
           </ul>
 
           <nav>
-            <a href="#">fruits</a>
-            <a href="#">vegetables</a>
-            <a href="#">meat</a>
+            <a href="#">Calorie Sheet</a>
+            <a href="#">Meals</a>
+            <a href="#">Comments</a>
           </nav>
         </div>
     </div>
     <div class="clear"></div>
     <div class="grid_8">
-      <h3>Welcome to Organic Company</h3>
+      <h3>Welcome to Online Nutrition Plans</h3>
       <img src="<?php echo base_url();?>/images/page1_img1.jpg" alt="" class="img_inner fleft">
       <div class="extra_wrapper">
 		<p>Want to learn more about this freebie designed by TemplateMonster.com? Follow the <a href="http://blog.templatemonster.com/free-website-templates/">link</a></p>
