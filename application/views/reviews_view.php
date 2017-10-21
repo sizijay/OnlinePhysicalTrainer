@@ -6,7 +6,7 @@
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -36,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/1.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/2.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -54,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/3.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/4.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -74,7 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/5.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -83,7 +83,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/6.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -94,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/7.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -103,7 +103,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/8.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -112,7 +112,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/9.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -123,7 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/10.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -132,7 +132,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/11.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>
@@ -141,7 +141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="<?php echo base_url();?>/images/12.jpg" alt=" " class="img-responsive">
 							<div class="overlay">
 								<h4><span>Gym</span> Workout</h4>
-								<p>Aliquam in dolor.</p> 
+								<p>Aliquam in dolor.</p>
 							</div>
 						</a>
 					</div>

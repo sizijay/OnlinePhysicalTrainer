@@ -1,0 +1,96 @@
+ 
+.menu_block  {
+	position: relative;
+	z-index: 999;
+	padding-top: 16px;
+	padding-bottom: 8px;
+	padding-left: 57px;
+	background-color: #fff;
+
+}
+
+nav>.sf-menu {
+
+}
+nav{ position:relative;padding: 0px 0 0 0;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu li {float:left;position:relative; }
+.sf-menu>li {
+	position: relative;
+	float: left;
+
+}
+
+.sf-menu>li+li {
+	margin-left: 118px;
+}
+
+.sf-menu>li+li:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 44px;
+	background-color: #efeef1;
+	left: -59px;
+	top: -16px;
+
+}
+
+
+.sf-menu>li>a{
+	font-size: 20px;
+	font-family: 'Glegoo', serif;
+	color: #d3cfcf;
+	position: relative;
+	line-height: 20px;
+	z-index: 999;
+	position: relative;
+}
+
+
+.sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li:hover>a:hover {
+	color: #858080;
+}
+
+
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li ul,.sf-menu li.sfHover>ul{
+	top:-28px;
+	left: 114px;
+
+	width: 141px;
+	z-index: 999; 
+	padding-top: 28px;
+	padding-bottom: 23px;
+	background-color: #ffffff;
+}
+
+
+.sf-menu li ul li{
+	padding-left: 18px;
+	float: none !important; 
+	margin-bottom: 3px;
+
+
+}
+
+
+
+
+.sf-menu li ul li a{
+	text-transform: uppercase;
+	font: 16px/16px 'Dosis', sans-serif;
+;
+	position: relative;
+	color: #000;
+
+}
+
+.sf-menu li li a:hover, 
+.sf-menu li.sfHover li.sfHover>a {  
+	color: #ec0606;
+
+}
+

@@ -1,0 +1,167 @@
+/* Elastislide Style */
+
+.elastislide-list {
+	list-style-type: none;
+	display: none;
+}
+
+.no-js .elastislide-list {
+	display: block;
+}
+
+.elastislide-carousel ul li {
+	min-width: 20px; /* minimum width of the image (min width + border) */
+}
+
+.elastislide-wrapper {
+	position: relative;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 56px;
+	height: auto !important;
+	margin-top: 2px;
+	min-height: 60px;
+	border:1px solid #d2d0d0;
+}
+
+.elastislide-wrapper.elastislide-loading {
+	background-image: url(../images/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.elastislide-horizontal {
+	padding: 10px 40px;
+}
+
+.elastislide-vertical {
+	padding: 41px 29px 40px 30px;
+}
+
+.elastislide-carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.elastislide-carousel ul {
+	position: relative;
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.elastislide-horizontal ul {
+	white-space: nowrap;
+}
+
+.elastislide-carousel ul li {
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+}
+
+.elastislide-horizontal ul li {
+	height: 100%;
+	display: inline-block;
+}
+
+.elastislide-vertical ul li {
+	display: block;
+}
+
+.elastislide-carousel ul li a {
+	display: inline-block;
+	width: 100%;
+}
+
+.elastislide-carousel ul li a img {
+	display: block;
+	max-width: 100%;
+	margin: 5px 0 6px;
+}
+
+/* Navigation Arrows */
+
+.elastislide-wrapper nav  {
+	position: static;
+}
+
+.elastislide-wrapper:after {
+	content: 'Top Products';
+	font: 19px/41px 'Glegoo', serif;
+	left: 0;
+	right: 0;
+	top: 0;
+	text-align: center;
+	color: #858080;
+	display: block;
+	position: absolute;
+}
+
+.elastislide-horizontal.elastislide-wrapper:after {
+	content: 'What People Say';
+	font: 19px/41px 'Glegoo', serif;
+	left: 0;
+	right: 0;
+	top: 9px;
+	text-align: center;
+	color: #858080;
+	display: block;
+	position: absolute;
+}
+.elastislide-wrapper nav span {
+	position: absolute;
+	background: url(../images/prevnext1.png) no-repeat 0 0;
+	width: 29px;
+	height: 29px;
+	text-indent: -9000px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.elastislide-wrapper nav span:hover {
+	opacity: 0.55;
+}
+
+.elastislide-vertical nav span {
+	bottom: 8px;
+	left: 50%;
+	display: block !important;
+	margin-left: -30px;
+	background-position: 0px 0px;
+}
+
+
+.elastislide-vertical nav span.elastislide-next {
+	bottom: 8px;
+	top: auto;
+	margin-right: -35px;
+	right: 50%;
+	left: auto;
+	margin-left: 0;
+	background-position: right 0;
+}
+
+.elastislide-carousel nav span+span {
+	background-position: right 0;
+}
+
+.elastislide-horizontal.elastislide-wrapper {
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+
+.elastislide-horizontal.elastislide-wrapper li {
+	height: auto !important;
+	white-space: normal;
+}
+
