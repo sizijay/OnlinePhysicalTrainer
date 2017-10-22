@@ -6,7 +6,7 @@
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -28,10 +28,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="container">
 <div class="col-md-6 contact-agileits-w3layouts-left">
 				<h3 class="title-w3-agile-sub">Contact <span>Us</span></h3>
-				<p class="para-agileits-w3layouts">
-				</p>
+
+				
+				
 				<p class="sub">Colombo 07, Sri Lanka<span class="glyphicon glyphicon-map-marker icon" aria-hidden="true"></span></p>
-				<p class="sub">Mon-Fri : 9am - 10pm.  Sat : 9am - 12pm<span class="glyphicon glyphicon-time icon" aria-hidden="true"></span></p>
+				<p class="sub">Mon-Fri : 9am - 6pm.  Sat : 9am - 12pm<span class="glyphicon glyphicon-time icon" aria-hidden="true"></span></p>
+
 				<p class="add"><span>Tel :</span> +0 (020) 123-5338<span class="glyphicon glyphicon glyphicon-earphone icon" aria-hidden="true"></span></p>
 				<p class="add"><span>Email :</span> <a class="mail" href="mailto:mail@example.com">info(at)example.com</a><span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span></p>
 
