@@ -1,14 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-	    
-
-	  </head>
-
-	  <body>
-
-
 <?php
 /**
  * CodeIgniter
@@ -324,8 +313,4 @@ switch (ENVIRONMENT)
  * And away we go...
  */
 require_once BASEPATH.'core/CodeIgniter.php';
-
-</body>
-</html>
-
-
+?>
