@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	    <meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	    <title>Buyer</title>
-
-	    <!-- Bootstrap core CSS -->
-	    <link href="css/bootstrap.min.css" rel="stylesheet">
-		
-		<link href="css/homepage.css" rel="stylesheet">
-
-	  </head>
-
-	  <body>
 <?php
 /**
  * CodeIgniter
@@ -329,5 +315,4 @@ switch (ENVIRONMENT)
  * And away we go...
  */
 require_once BASEPATH.'core/CodeIgniter.php';
-</body>
 </html>
