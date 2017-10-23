@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://ec2-54-71-120-171.us-west-2.compute.amazonaws.com/OnlinePhysicalTrainer';
+$config['base_url'] = 'ec2-54-70-176-254.us-west-2.compute.amazonaws.com/OnlinePhysicalTrainer';
 
 
 
@@ -38,7 +38,7 @@ $config['base_url'] = 'http://ec2-54-71-120-171.us-west-2.compute.amazonaws.com/
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
