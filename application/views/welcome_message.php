@@ -3,87 +3,73 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
-
-	<style type="text/css">
-
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
-
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
-
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
-
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
-
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
-
-	#body {
-		margin: 0 15px 0 15px;
-	}
-
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
-
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
-	}
-	</style>
+<title>Department of Physical Education University of Colombo
+</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="<?php echo base_url();?>/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?php echo base_url();?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>css/cm-overlay.css" /><!-- //overlay-->
+<link rel="stylesheet" href="<?php echo base_url();?>/css/owl.carousel.css" type="text/css" media="all"/> <!-- Owl-Carousel-CSS -->
+<link href="<?php echo base_url();?>css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+<!--//fonts-->
 </head>
+<?php include "header.php" ?>
 <body>
+    <div id="single">
+<!--home-->
+        <div data-target="home" class="banner-w3ls" id="home">
+        	
+			<div class="container">
+			<!-- banner-slider -->
+			<div class="w3l_banner_info" >
+				<div class="slider">
+					<div class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="w3ls-info">
+											 <h4>PERFECT BODY REQUIRES A LOT OF TRAINING</h4>
+											<p>Start your way to healthy life with our personalized CrossFit programs.</p>
+										</div>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+									</li>
+									<li>
+										  <div class="w3ls-info">
+											<h4>IMPROVE THE PHYSICAL SHAPE OF YOUR BODY</h4>
+											<p>Start your way to healthy life with our personalized CrossFit programs.</p>
+										</div>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+									</li>
+									<li>
+										<div class="w3ls-info">
+											<h4>POWER UP WITH THESE PRO SECRETS</h4>
+											<p>Start your way to healthy life with our personalized CrossFit programs.</p>
+										</div>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
+									</li>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
+								</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		<!-- //banner-slider -->
+                <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
+			</div>
+			
+				
+        </div>
+<?php include "footer.php" ?>
+    </div>
 
 </body>
+
 </html>
