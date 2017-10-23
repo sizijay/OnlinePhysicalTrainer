@@ -9,7 +9,7 @@
 <meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
+    function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="<?php echo base_url();?>/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?php echo base_url();?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
@@ -25,6 +25,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div id="single">
 <div data-target="about" class="about" id="about">
+
+  <table height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
+   <tr>
+     <td valign="top" align="left" background="http://static6.businessinsider.com/image/5193e10f69bedd3633000000/heres-everything-youre-doing-wrong-in-your-indoor-cycling-class.jpg" style="background-repeat:no-repeat; background-size:cover;"> 
+
+
 <div class="contact-w3layouts">
 <div class="container">
 <div class="col-md-12 contact-agileits-w3layouts-center">
@@ -42,7 +48,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </label>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register</button>
+
+                <a href="<?php echo base_url();?>/index.php/register"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register
+                  </a>
+                </button>
+
+
+                
+
             </form><!-- /form -->
             <a href="#" class="forgot-password">
                 Forgot the password?
@@ -54,9 +67,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <?php include "footer.php" ?>
 </div>
+</td>
+   </tr>
+ </table>
 
 
 </body>
 
 
+
 </html>
+
+
+
