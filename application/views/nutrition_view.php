@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
-     <title>Diet Plan</title>
+     <title>Nutrition Plan</title>
      <meta charset="utf-8">
      <link href="<?php echo base_url();?>css/style.css" rel="stylesheet" type="text/css" media="all" />
      <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
@@ -44,12 +44,12 @@
       });
 
        $(window).load (
-    function(){$('#carousel1').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 220, items: {
+    function(){$('#carousel1').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 'auto', items: {
       visible : {min: 1,
        max: 1
 },
 height: 'auto',
- width: 220,
+ width: 'auto',
 
     }, responsive: true,
 
@@ -67,6 +67,7 @@ height: 'auto',
   </script>
 
      </head>
+
      <body  class="page1">
 <!--==============================header=================================-->
  <header>
