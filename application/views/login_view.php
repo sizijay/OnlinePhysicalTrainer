@@ -25,9 +25,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <div id="single">
 <div data-target="about" class="about" id="about">
+
   <table height="100%" width="100%" cellpadding="0" cellspacing="0" border="0">
    <tr>
      <td valign="top" align="left" background="http://static6.businessinsider.com/image/5193e10f69bedd3633000000/heres-everything-youre-doing-wrong-in-your-indoor-cycling-class.jpg" style="background-repeat:no-repeat; background-size:cover;"> 
+
+
 <div class="contact-w3layouts">
 <div class="container">
 <div class="col-md-12 contact-agileits-w3layouts-center">
@@ -45,9 +48,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </label>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+
                 <a href="<?php echo base_url();?>/index.php/register"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register
                   </a>
                 </button>
+
+
+                
 
             </form><!-- /form -->
             <a href="#" class="forgot-password">
@@ -68,4 +75,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </body>
 
 
+
 </html>
+
+
+
