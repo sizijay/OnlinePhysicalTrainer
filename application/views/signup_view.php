@@ -31,10 +31,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php include "header.php" ?>
 <body>
 <div id="single">
-
+    <div data-target="about" class="about" id="about">
 <!-- banner -->
   <div class="center-container">
-  <div class="banner-dott">
+      <div class="contact-w3layouts">
+<!--  <div class="banner-dott">-->
     <div class="main">
       <h1 class="w3layouts_head">Auditions Registration Form</h1>
         <div class="w3layouts_main_grid">
@@ -96,6 +97,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
           </div>
         </form>
       </div>
+    </div>
     <!-- Calendar -->
       <link rel="stylesheet" href="css/jquery-uiSignup.css" />
         <script src="js/jquery-ui.js"></script>
@@ -105,11 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
           </script>
     <!-- //Calendar -->
-      <div class="w3layouts_copy_right">
-        <div class="container">
-          <p>© 2017 Auditions Registration Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a></p>
-        </div>
-      </div>
+  
     </div>
   </div>
   </div>
