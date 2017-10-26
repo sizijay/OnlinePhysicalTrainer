@@ -35,13 +35,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="container">
 <div class="col-md-12 contact-agileits-w3layouts-center">
       <div class="card card-container">
-            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
-            <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin">
+        <?php if($this->session->flashdata('errmsg')){
+            echo $this->session->flashdata('errmsg');
+        }
+
+       ?>
+<!--            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+<!--            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+<!--            <p id="profile-name" class="profile-name-card"></p>-->
+          <?php echo validation_errors();?>
+          <?php echo form_open('login/form');?>
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus name="email">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="password">
                 <div id="remember" class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember me
@@ -49,14 +55,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
 
+
                 <a href="<?php echo base_url();?>/index.php/signup"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Signup
+
                   </a>
                 </button>
 
 
-                
 
-            </form><!-- /form -->
+
+          <?php  echo form_close();?>
             <a href="#" class="forgot-password">
                 Forgot the password?
             </a>

@@ -135,10 +135,9 @@ height: 'auto',
         </div>
       </div>
     </div>
-    <p> <a href="#" data-anchor="about" class="btn-normal">Edit Calory Sheet</a> </p>
   </div>
 </div>
-
+<p> <a href="#" data-anchor="about" class="btn-normal">Edit Calory sheet</a> </p>
 
 </body>
 <?php include "footer.php" ?>

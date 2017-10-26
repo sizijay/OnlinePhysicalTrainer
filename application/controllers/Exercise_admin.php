@@ -3,9 +3,9 @@ if (! Defined ('BASEPATH'))
 
 exit ('No direct script access allowed');
 
-Class nutrition extends CI_Controller {
+Class Exercise_admin extends CI_Controller {
 	public function index(){
-		$this->load->view('nutrition_view');
+		$this->load->view('exercise_admin-view');
 	}
 }
 
