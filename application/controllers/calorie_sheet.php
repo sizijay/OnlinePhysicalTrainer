@@ -1,5 +1,5 @@
 <?php
-if (! Defined ('BASEPATH')) OR exit ('No direct script access allowed');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 Class Calorie_sheet extends CI_Controller {
 	public function index(){
