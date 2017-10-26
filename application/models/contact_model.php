@@ -11,42 +11,62 @@ class contact_model extends CI_Model
     /**
      *
      */
-    public function insertdata(){
+    public function insertdat()
+    {
+
 
         //login
 //            $data=array('email'=>$this->input->post('Email',TRUE),
 //                'NIC'=>$this->input->post('Name',TRUE)
 //                );
-            //contact
-            $data1=array(
+        //contact
+        $data1 = array(
 
-                'message'=>$this->input->post('Message',TRUE),
-                'student_StudentID' =>$this->input->post('Name',TRUE)
+            'message' => $this->input->post('Message', TRUE),
+            'student_StudentID' => $this->input->post('Name', TRUE)
 
 
-                );
-        $query = $this->db->query('SELECT StudentID FROM student');
+        );
 
-        foreach ($query->result_array() as $row)
-        {
-            if (!empty(data1[1])) {
-                if($row['StudentID']==data1[1]){
+        // $query = $this->db->query('SELECT StudentID FROM student');
 
-                    $this->db->insert('contact',$data1);
-                    echo "successfully inserted";
-                }
+        //foreach ($query->result_array() as $row) {
+        //if (!empty(data1(1))) {
+        // if ($row['StudentID'] == data1(1)) {
+//        $data=array(
+//            'message'=>$result->message,
+//            'student_StudentID'=>$result->student_StudentID,
+//
+//        );
+        $this->db->insert("contact", $data1);
+        echo "successfully inserted";
+        //}
+    }
+
+    //}
+
+    //}
+    public function insertdata()
+    {
+        $message = $this->input->post('Message');
+        $student_StudentID = $this->input->post('Name');
+        $email = $this->input->post('Email');
+
+
+        //$this->db->where('email',$email);
+        //$respond1=$this->db->get('login');
+        $this->db->where('StudentID', $student_StudentID);
+        $respond = $this->db->get('student');
+        if ($respond->num_rows() == 1) {
+            return($respond)->row(0);
             }
-
+            else{
+             return false;
+             }
         }
 
 
 
-
-
-
-
-
-    }
 }
 ?>
 

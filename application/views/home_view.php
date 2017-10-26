@@ -1,6 +1,9 @@
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Department of Physical Education University of Colombo
@@ -8,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Gym Workout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -23,11 +26,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//fonts-->
 </head>
 <?php include "header.php" ?>
+
 <body>
+
     <div id="single">
 <!--home-->
         <div data-target="home" class="banner-w3ls" id="home">
-        	
+
 			<div class="container">
 			<!-- banner-slider -->
 			<div class="w3l_banner_info" >
@@ -64,8 +69,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- //banner-slider -->
                 <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
-			
-				
+
+
         </div>
 <?php include "footer.php" ?>
     </div>

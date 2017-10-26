@@ -20,6 +20,25 @@ Class login extends CI_Controller {
         else{
             $this->load->model('login_model');
             $result=$this->login_model->logindata();
+
+            if($result != false){
+                $data=array(
+                 'NIC'=>$result->NIC,
+                    'fname'=>$result->fname,
+                    'lname'=>$result->lname,
+                    'email'=>$result->email,
+                    'loggedin'=>TRUE
+
+
+                );
+                $this->session->set_userdata($data);
+                //print_r($_SESSION);
+                $this->session->set_flashdata('welcome',"Welcome");
+                redirect(home);
+            }else{
+                $this->session->set_flashdata('errmsg',"Wrong Email or Password");
+                redirect(login);
+            }
         }
     }
 }
