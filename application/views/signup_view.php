@@ -107,7 +107,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             });
           </script>
     <!-- //Calendar -->
-  
+
     </div>
   </div>
   </div>

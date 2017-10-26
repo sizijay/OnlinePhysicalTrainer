@@ -4,22 +4,19 @@ class login_model extends CI_Model
     /**
      *
      */
-    public function insertdata(){
-        //login
-//            $data=array('email'=>$this->input->post('Email',TRUE),
-//                'NIC'=>$this->input->post('Name',TRUE)
-//                );
-        //contact
-        $data1=array(
-            'message'=>$this->input->post('Message',TRUE),
-            //'student_StudentID' =>$this->input->post('Name',TRUE)
+    public function logindata()
+    {
+        $email=$this->input->post('email');
+        $password=$this->input->post('password');
 
-        );
-        //student
-
-
-
-        $this->db->insert('contact',$data1);
+        $this->db->where('email',$email);
+        $this->db->where('password',$password);
+        $respond=$this->db->get('login');
+        if($respond->num_rows()==1){
+            return($respond)->row(0);
+        }else{
+            return false;
+        }
     }
 }
 ?>
