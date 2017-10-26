@@ -55,7 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
 
-                <a href="<?php echo base_url();?>/index.php/register"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register
+                <a href="<?php echo base_url();?>register"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register
                   </a>
                 </button>
 
