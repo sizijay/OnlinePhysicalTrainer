@@ -304,7 +304,8 @@ ul.nav.navbar-nav.navbar-right li:nth-child(6) a {
 }
 
 .banner {
-	background: url(../images/page2_img6.jpg) right 27px no-repeat;
+	background: url(../images/page2_img6.jpg) no-repeat;
+	background-size: 300px 200px;
 	margin-top: 76px;
 	border: 1px solid #034368;
 	padding: 60px 34px 40px;
@@ -317,7 +318,7 @@ ul.nav.navbar-nav.navbar-right li:nth-child(6) a {
 
 .banner.b1 {
 	background-image: url(../images/page3_img1.jpg);
-	background-position: right 39px;
+	
 }
 
 .car_div {
