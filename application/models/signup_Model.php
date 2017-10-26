@@ -16,7 +16,7 @@ Class Signup_model extends CI_Model {
 		$this->db->insert('login',$dataL);
 
 		$dataS = array(
-			'NIC' => $this->input->post('nic',TRUE),
+			'login_NIC' => $this->input->post('nic',TRUE),
 			'weight' => $this->input->post('weight',TRUE),
 			'height' => $this->input->post('height',TRUE),
 			'age' => $this->input->post('age',TRUE),
