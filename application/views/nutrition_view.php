@@ -107,7 +107,7 @@ height: 'auto',
 
           <nav>
             <a href="<?php echo base_url();?>/index.php/calorie_sheet">Calorie Sheet</a>
-            <a href="#">Meals</a>
+            <a href="<?php echo base_url();?>/index.php/meals">Meals</a>
             <a href="#">Comments</a>
           </nav>
         </div>
@@ -115,7 +115,7 @@ height: 'auto',
     <div class="clear"></div>
     <div class="grid_8">
       <h3>Welcome to Online Nutrition Plans</h3>
-      <img src="<?php echo base_url();?>/images/page1_img1.jpg" alt="" class="img_inner fleft">
+      <img src="<?php echo base_url();?>/images/page2_img1.jpg" alt="" class="img_inner fleft">
       <div class="extra_wrapper">
 		<p>Want to learn more about this freebie designed by TemplateMonster.com? Follow the <a href="http://blog.templatemonster.com/free-website-templates/">link</a></p>
         <p><a href="http://www.templatemonster.com/category/agriculture-website-templates/" rel="nofollow">Find more themes of this kind at the category of premium Agriculture Website Templates.</a></p>
