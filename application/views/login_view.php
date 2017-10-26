@@ -53,9 +53,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
 
-                <a href="<?php echo base_url();?>register"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Register
+
+                <a href="<?php echo base_url();?>/index.php/signup"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Signup
+
                   </a>
                 </button>
 

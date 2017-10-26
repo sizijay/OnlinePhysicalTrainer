@@ -142,7 +142,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
 	color:#fff;
 	font-style:normal;
 }
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
     outline: none;
     width: 68%;
     background:rgba(255, 255, 255, 0.17);
@@ -169,7 +169,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
 	float:left;
 	width:41%;
 }
-.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridr input[type="time"]{
+.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridl input[type="password"]{
 	width:90% !important;
 }
 .agileits_w3layouts_main_gridr input[type="time"] {
@@ -331,7 +331,7 @@ option{
 }
 }
 @media (max-width: 768px){
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 67.8%;
 }
 .center-container {
@@ -343,7 +343,7 @@ option{
 }
 }
 @media (max-width: 736px){
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 67.6%;
 }
 .banner-dott {
@@ -358,7 +358,7 @@ option{
 }
 }
 @media (max-width: 667px){
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 67%;
 }
 .w3layouts_main_grid span label i {
@@ -396,7 +396,7 @@ option{
 	margin: 0 0 1em;
 	display: block;
 }
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 94.5%;
 }
 .w3layouts_main_grid span label i {
@@ -420,7 +420,7 @@ option{
 	padding: 2em 0;
 /*-- w3layouts --*/
 }
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 94.3%;
 }
 .w3layouts_main_grid span label i {
@@ -437,10 +437,10 @@ option{
 	width: 100%;
 	float: none;
 }
-.agileits_w3layouts_main_gridl input[type="text"], .agileits_w3layouts_main_gridr input[type="time"] {
+.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridl input[type="password"], .agileits_w3layouts_main_gridr input[type="time"] {
 	width: 92.9% !important;
 }
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 93.3%;
 }
 .agileits_w3layouts_main_gridr input[type="time"] {
@@ -466,10 +466,10 @@ option{
 .w3layouts_main_grid {
 	width: 75%;
 }
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 92.3%;
 }
-.agileits_w3layouts_main_gridl input[type="text"], .agileits_w3layouts_main_gridr input[type="time"] {
+.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridl input[type="password"], .agileits_w3layouts_main_gridr input[type="time"] {
 	width: 92% !important;
 }
 .agileits_w3layouts_main_gridr input[type="time"] {
@@ -495,7 +495,7 @@ option{
 }
 }
 @media (max-width:384px){
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 92%;
 }
 .agileits_w3layouts_main_gridr input[type="time"] {
@@ -506,7 +506,7 @@ option{
 }
 }
 @media (max-width: 375px){
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width:91.5% !important;
 }
 .agileits_w3layouts_main_gridr input[type="time"] {
@@ -527,13 +527,13 @@ option{
 .w3layouts_main_grid {
 	padding: 1em;
 }
-.w3layouts_main_grid span label,.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea{
+.w3layouts_main_grid span label,.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea{
 	font-size: 13px;
 }
 .w3layouts_main_grid span label i {
 	right: 50%;
 }
-.w3layouts_main_grid input[type="text"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="password"], #category, #category1, #risk, #priority, .agileits_w3layouts_main_gridr input[type="time"], .w3layouts_main_grid input[type="email"], .w3layouts_main_grid textarea {
 	width: 90% !important;
 }
 .agileits_w3layouts_main_gridr input[type="time"] {
