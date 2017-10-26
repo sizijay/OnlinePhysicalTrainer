@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'sizijaydb.c1na0a5pqgoe.us-west-2.rds.amazonaws.com',
+	'hostname' => '34.214.128.125',
 	'username' => 'sizijay',
 	'password' => 'sizijay123',
 	'database' => 'onlinephysicaltrainer',
