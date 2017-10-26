@@ -79,7 +79,7 @@ $db['default'] = array(
 	'hostname' => '34.214.128.125',
 	'username' => 'sizijay',
 	'password' => 'sizijay123',
-	'database' => 'test',
+	'database' => 'onlinephysicaltrainer',
 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
