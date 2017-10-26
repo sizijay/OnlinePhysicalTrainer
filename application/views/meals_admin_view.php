@@ -57,46 +57,55 @@
           <h4 class="head2"><a href="#">Fermus at manon nunoli </a></h4>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros.
           <br>
           <a href="#" class="link1">Learn More</a>
+          <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
        </div></div>
       <div class="rec"><img src="<?php echo base_url();?>/images/page4_img2.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
           <h4 class="head2"><a href="#">Gertyue deverra newloki</a></h4>Cobeem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia.
           <br>
           <a href="#" class="link1">Learn More</a>
+          <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
         </div></div>
       <div class="rec"><img src="<?php echo base_url();?>/images/page4_img3.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
           <h4 class="head2"><a href="#">Nolinteger nvallis arcim velter </a></h4>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros.
           <br>
           <a href="#" class="link1">Learn More</a>
+          <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
         </div></div>
         <div class="rec"><img src="<?php echo base_url();?>/images/page4_img1.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
             <h4 class="head2"><a href="#">Fermus at manon nunoli </a></h4>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros.
             <br>
             <a href="#" class="link1">Learn More</a>
+            <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
          </div></div>
         <div class="rec"><img src="<?php echo base_url();?>/images/page4_img2.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
             <h4 class="head2"><a href="#">Gertyue deverra newloki</a></h4>Cobeem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia.
             <br>
             <a href="#" class="link1">Learn More</a>
+            <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
           </div></div>
         <div class="rec"><img src="<?php echo base_url();?>/images/page4_img3.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
             <h4 class="head2"><a href="#">Nolinteger nvallis arcim velter </a></h4>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros.
             <br>
             <a href="#" class="link1">Learn More</a>
+            <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
           </div></div>
           <div class="rec"><img src="<?php echo base_url();?>/images/page4_img1.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
               <h4 class="head2"><a href="#">Fermus at manon nunoli </a></h4>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros.
               <br>
               <a href="#" class="link1">Learn More</a>
+              <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
            </div></div>
           <div class="rec"><img src="<?php echo base_url();?>/images/page4_img2.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
               <h4 class="head2"><a href="#">Gertyue deverra newloki</a></h4>Cobeem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia.
               <br>
               <a href="#" class="link1">Learn More</a>
+              <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
             </div></div>
           <div class="rec"><img src="<?php echo base_url();?>/images/page4_img3.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
               <h4 class="head2"><a href="#">Nolinteger nvallis arcim velter </a></h4>Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus dia a scelerisque eros.
               <br>
               <a href="#" class="link1">Learn More</a>
+              <p> <a href="#" data-anchor="about" class="btn-normal">Edit Meal</a> </p>
             </div></div>
 
     </div>
