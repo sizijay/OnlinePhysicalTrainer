@@ -16,7 +16,7 @@ Class signup extends CI_Controller {
 		$this->form_validation->set_rules('weight','Weight','required');
 		$this->form_validation->set_rules('cnumber','Contact Number','required');		
 		$this->form_validation->set_rules('email','Email','required|valid_email');
-		$this->form_validation->set_rules('nic','NIC No.','required|is_unique[login.NIC]|is_unique[student.NIC]');
+		$this->form_validation->set_rules('nic','NIC No.','required|is_unique[login.NIC]|is_unique[student.login_NIC]');
 		$this->form_validation->set_rules('password','Password','required|min_length[5]');
 		$this->form_validation->set_rules('cpassword','Confirm Password','required|matches[password]');
 
