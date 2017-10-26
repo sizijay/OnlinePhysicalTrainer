@@ -3,7 +3,7 @@ if (! Defined ('BASEPATH'))
 
 exit ('No direct script access allowed');
 
-Class signup extends CI_Controller {
+Class Signup extends CI_Controller {
 	public function index(){
 		$this->load->view('signup_view');
 	}
@@ -26,7 +26,7 @@ Class signup extends CI_Controller {
 
 		else{
 			$this->load->model('Signup_model');
-			$this->signup_Model->insertUserdata();
+			$this->Signup_model->insertUserdata();
 		}
 
 	}
