@@ -5,7 +5,7 @@ Class Login extends CI_Controller {
 	public function index(){
 		$this->load->view('login_view');
 	}
-<<<<<<< Updated upstream
+
 
     public function form(){
 
@@ -40,7 +40,6 @@ Class Login extends CI_Controller {
             }
         }
     }
-=======
->>>>>>> Stashed changes
+
 }
 ?>

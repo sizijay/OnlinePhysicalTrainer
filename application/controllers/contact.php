@@ -3,8 +3,8 @@ if (! Defined ('BASEPATH'))
 	
 exit ('No direct script access allowed');
 
-<<<<<<< Updated upstream
-Class contact extends CI_Controller
+
+Class Contact extends CI_Controller
 {
     public function index()
     {
@@ -33,11 +33,11 @@ Class contact extends CI_Controller
                 redirect(contact);}
         }
     }
-=======
+
 Class Contact extends CI_Controller {
 	public function index(){
 		$this->load->view('contact_view');
 	}
->>>>>>> Stashed changes
+
 }
 ?>
