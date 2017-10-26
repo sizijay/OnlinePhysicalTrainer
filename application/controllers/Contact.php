@@ -27,10 +27,12 @@ Class Contact extends CI_Controller
 
                 $this->load->model('contact_model');
                 $this->contact_model->insertdat();
+                redirect(home);
             }
             else{
                 $this->session->set_flashdata('errmsg',"Wrong StudentID");
-                redirect(contact);}
+                redirect(contact);
+            }
         }
     }
 
