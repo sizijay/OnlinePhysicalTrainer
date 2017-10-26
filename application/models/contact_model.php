@@ -6,7 +6,7 @@
  * Time: 4:28 PM
  */
 
-class contact_model extends CI_Model
+class Contact_model extends CI_Model
 {
     /**
      *
