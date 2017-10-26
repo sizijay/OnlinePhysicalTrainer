@@ -1,9 +1,7 @@
 <?php
-if (! Defined ('BASEPATH'))
+//if (! Defined ('BASEPATH')) OR exit ('No direct script access allowed');
 
-exit ('No direct script access allowed');
-
-Class nutrition extends CI_Controller {
+Class Nutrition extends CI_Controller {
 	public function index(){
 		$this->load->view('nutrition_view');
 	}

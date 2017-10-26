@@ -6,7 +6,7 @@
  * Time: 6:45 AM
  */
 
-class signup extends CI_Controller{
+class Signup extends CI_Controller{
     public function index(){
         $this->load->view('signup_view');
     }

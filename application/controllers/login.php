@@ -1,12 +1,11 @@
 <?php
-if (! Defined ('BASEPATH'))
+//if (! Defined ('BASEPATH')) OR exit ('No direct script access allowed');
 
-exit ('No direct script access allowed');
-
-Class login extends CI_Controller {
+Class Login extends CI_Controller {
 	public function index(){
 		$this->load->view('login_view');
 	}
+<<<<<<< Updated upstream
 
     public function form(){
 
@@ -41,6 +40,7 @@ Class login extends CI_Controller {
             }
         }
     }
+=======
+>>>>>>> Stashed changes
 }
-
 ?>
