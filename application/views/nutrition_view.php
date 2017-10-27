@@ -105,11 +105,11 @@ height: 'auto',
             <!--<li><a href="#"><img src="<?php echo base_url();?>/images/dier3.jpg" alt=""></a></li>-->
           </ul>
 
-          
+          <nav>
             <a href="<?php echo base_url();?>calorie_sheet">Calorie Sheet</a>
             <a href="<?php echo base_url();?>meals">Meals</a>
             <a href="#">Comments</a>
-          
+          </nav>
         </div>
     </div>
     <div class="clear"></div>
