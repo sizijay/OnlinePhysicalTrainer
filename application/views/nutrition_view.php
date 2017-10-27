@@ -92,17 +92,17 @@ height: 'auto',
           <ul>
             <li class=""><a href="#"><img src="<?php echo base_url();?>/images/veg1.jpg" alt=""></a></li>
             <li><a href="#"><img src="<?php echo base_url();?>/images/veg2.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/veg3.jpg" alt=""></a></li>
+            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/veg3.jpg" alt=""></a></li>-->
           </ul>
           <ul>
             <li class=""><a href="#"><img src="<?php echo base_url();?>/images/meat1.jpg" alt=""></a></li>
             <li><a href="#"><img src="<?php echo base_url();?>/images/meat2.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/meat3.jpg" alt=""></a></li>
+            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/meat3.jpg" alt=""></a></li>-->
           </ul>
           <ul>
             <li class=""><a href="#"><img src="<?php echo base_url();?>/images/dier1.jpg" alt=""></a></li>
             <li><a href="#"><img src="<?php echo base_url();?>/images/dier2.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/dier3.jpg" alt=""></a></li>
+            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/dier3.jpg" alt=""></a></li>-->
           </ul>
 
           <nav>
