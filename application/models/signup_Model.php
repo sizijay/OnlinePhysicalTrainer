@@ -24,6 +24,33 @@ Class Signup_model extends CI_Model {
 		
 		$this->db->insert('student',$dataS);
 
+        $nic=$this->input->post('nic');
+
+
+        $this->db->select("StudentID");
+        $this->db->from('student');
+        $this->db->where('login_NIC',$nic);
+        $query = $this->db->get();
+        foreach ($query->result() as $row)
+        {
+            $id=$row->StudentID;
+
+        }
+        //print $row;
+
+        $data3=array(
+            'nutrition_plan_n_no' => '1',
+            'student_StudentID'=> $id
+
+        );
+        $this->db->insert('nutrition_plan_has_student',$data3);
+
+        $data4=array(
+            'schedule_schedule_no'=>'1',
+            'attendance_Attendance_ID'=>'1',
+            'student_StudentID'=> $id
+        );
+        $this->db->insert('schedule_has_student1',$data4);
 
 	}
 }
