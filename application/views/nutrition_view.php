@@ -28,6 +28,9 @@
 
      <script src="js/jquery.catslider.js"></script>
      <script src="js/jquery.touchSwipe.min.js"></script>
+    h3{
+      colour:white;
+    }
     <script>
     $(window).load (  function(){
 
@@ -41,6 +44,7 @@
 
 
       });
+
 
        $(window).load (
     function(){$('#carousel1').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 'auto', items: {
@@ -76,45 +80,20 @@ height: 'auto',
 <!--==============================Content=================================-->
 
 
-<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - September 21, 2013!</div>
+
 
   <div class="container_12">
 
-    <div class="grid_8 prefix_2">
+    <div class="grid_8 prefix_4">
 
-      <div id="mi-slider" class="mi-slider">
+      <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>calorie_sheet">Featured Food Types</a></button>
+      <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>meals">Meal Types</a></button>
 
-          <ul>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/fruit1.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/fruit2.jpg" alt=""></a></li>
-          </ul>
-          <ul>
-            <li class=""><a href="#"><img src="<?php echo base_url();?>/images/veg1.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/veg2.jpg" alt=""></a></li>
-            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/veg3.jpg" alt=""></a></li>-->
-          </ul>
-          <ul>
-            <li class=""><a href="#"><img src="<?php echo base_url();?>/images/meat1.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/meat2.jpg" alt=""></a></li>
-            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/meat3.jpg" alt=""></a></li>-->
-          </ul>
-          <ul>
-            <li class=""><a href="#"><img src="<?php echo base_url();?>/images/dier1.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/dier2.jpg" alt=""></a></li>
-            <!--<li><a href="#"><img src="<?php echo base_url();?>/images/dier3.jpg" alt=""></a></li>-->
-          </ul>
-
-          
-        </div>
-        <nav>
-            <a href="<?php echo base_url();?>calorie_sheet">Calorie Sheet</a>
-            <a href="<?php echo base_url();?>meals">Meals</a>
-            <a href="#">Comments</a>
-          </nav>
+        
     </div>
     <div class="clear"></div>
     <div class="grid_8">
-      <h3>Welcome to Online Nutrition Plans</h3>
+      <h3>Welcome to Nutrition Plans</h3>
       <img src="<?php echo base_url();?>/images/page2_img1.jpg" alt="" class="img_inner fleft">
       <div class="extra_wrapper">
 		<p>Want to learn more about this freebie designed by TemplateMonster.com? Follow the <a href="http://blog.templatemonster.com/free-website-templates/">link</a></p>

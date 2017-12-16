@@ -2,7 +2,7 @@
 <div style="position: relative; top:  15px" ; class="footer-w3layouts">
 	<div class="container">
 	<div class="agile-copy">
-		<p>© 2017 Online Physical Trainer. All rights reserved | Designed by <a href="www.cmb.ac.lk/">University of Colombo</a></p>
+		<p>© 2017 Online Physical Trainer. All rights reserved | Designed by <a href="http://www.cmb.ac.lk/">University of Colombo</a></p>
 	</div>
 	<div class="agileits-social">
 		<ul>

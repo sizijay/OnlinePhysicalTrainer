@@ -47,7 +47,15 @@
 </header>
 
 <!--==============================Content=================================-->
+  <div class="container_12">
+    <div class="grid_8 prefix_4">
 
+        <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>nutrition">Nutrition Plans</a></button>
+        <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>meals">Featured Food Types</a></button>
+
+          
+    </div>
+  </div>
   <div class="container_12">
     <div class="grid_12">
       <h3>Best Recipes</h3>

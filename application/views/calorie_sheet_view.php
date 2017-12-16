@@ -29,42 +29,7 @@
 
      <script src="js/jquery.catslider.js"></script>
      <script src="js/jquery.touchSwipe.min.js"></script>
-    <script>
-    $(window).load (  function(){
-
-
-        $( '#mi-slider' ).catslider();
-
-        $( '#carousel' ).elastislide( {
-        orientation : 'vertical'
-      } );
-
-
-
-      });
-
-       $(window).load (
-    function(){$('#carousel1').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 220, items: {
-      visible : {min: 1,
-       max: 1
-},
-height: 'auto',
- width: 220,
-
-    }, responsive: true,
-
-    scroll: 1,
-
-    mousewheel: false,
-
-    swipe: {onMouse: false, onTouch: false}});
-
-    } );
-
-    $(document).ready(function(){
-      $().UItoTop({ easingType: 'easeOutQuart' });
-    });
-  </script>
+    
 
      </head>
      <body  class="page1">
@@ -74,8 +39,16 @@ height: 'auto',
 </header>
 
 <!--==============================Content=================================-->
+<div class="container_12">
+  <div class="grid_8 prefix_4">
 
-<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - September 21, 2013!</div>
+      <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>nutrition">Nutrition Plans</a></button>
+      <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>meals">Meal Types</a></button>
+
+        
+  </div>
+</div>
+  
   <div class="container_12">
     <div class="grid_12">
       <h3 class="mb0">Featured Food Types</h3>
@@ -135,7 +108,6 @@ height: 'auto',
         </div>
       </div>
     </div>
-    <p> <a href="#" data-anchor="about" class="btn-normal">Edit Calory Sheet</a> </p>
   </div>
 </div>
 
