@@ -1,4 +1,8 @@
-
+    <style type="text/css">
+      #conts{
+        background-color : #000000;
+      }
+    </style>
      <head>
      <title>Nutrition Plan</title>
      <meta charset="utf-8">
@@ -28,46 +32,8 @@
 
      <script src="js/jquery.catslider.js"></script>
      <script src="js/jquery.touchSwipe.min.js"></script>
-    h3{
-      colour:white;
-    }
-    <script>
-    $(window).load (  function(){
 
-
-        $( '#mi-slider' ).catslider();
-
-        $( '#carousel' ).elastislide( {
-        orientation : 'vertical'
-      } );
-
-
-
-      });
-
-
-       $(window).load (
-    function(){$('#carousel1').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 'auto', items: {
-      visible : {min: 1,
-       max: 1
-},
-height: 'auto',
- width: 'auto',
-
-    }, responsive: true,
-
-    scroll: 1,
-
-    mousewheel: false,
-
-    swipe: {onMouse: false, onTouch: false}});
-
-    } );
-
-    $(document).ready(function(){
-      $().UItoTop({ easingType: 'easeOutQuart' });
-    });
-  </script>
+    
 
      </head>
 
@@ -80,7 +46,11 @@ height: 'auto',
 <!--==============================Content=================================-->
 
 
-
+<div id="single">
+<div data-target="about" class="about" id="about">
+<div class="contact-w3layouts">
+<div class="container">
+<div class="col-md-6 contact-agileits-w3layouts-left">
 
   <div class="container_12">
 
@@ -91,45 +61,33 @@ height: 'auto',
 
         
     </div>
-    <div class="clear"></div>
+    
     <div class="grid_8">
-      <h3>Welcome to Nutrition Plans</h3>
+      <h2>Welcome to Nutrition Plans</h2>
       <img src="<?php echo base_url();?>/images/page2_img1.jpg" alt="" class="img_inner fleft">
       <div class="extra_wrapper">
-		<p>Want to learn more about this freebie designed by TemplateMonster.com? Follow the <a href="http://blog.templatemonster.com/free-website-templates/">link</a></p>
-        <p><a href="http://www.templatemonster.com/category/agriculture-website-templates/" rel="nofollow">Find more themes of this kind at the category of premium Agriculture Website Templates.</a></p>
-      </div>
+		<h3>What are Nutrition Plans?</h3>
+        
+      
       <div class="clear"></div>
-      Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus. Donecyl laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetu orci sed nulla facilisis consequat. Curabitur vel lorem sit amet nulla ullamcorper fermentum.
+      Building lean muscle requires a ready supply of protein for tissue repair. The more intense your efforts, the more protein you’ll need. Carbohydrates should constitute 75 percent of a pre-workout meal, and protein should constitute 25 percent. Protein must first be broken down into amino acids in order to be used by muscles to repair and build lean tissue. 1-2 hours prior to strength training, consume protein in order to have an adequate reserve for the upcoming workout. The amount of protein required is based on body weight, intensity level, length of workout, and gender.</div>
       <div class="grid_4 alpha">
         <div class="banner maxheight">
           <h3><a href="#">100% Eco &amp; <br> Organic</a></h3>
         </div>
         <h3>Our Mission</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultriciesyt erat rutrum. Cras facilisis, nulla vel viverra auctor, leo ame magna sodales felis, quis malesuada.</p>
-        <ul class="list">
-          <li><a href="#">Duis massa elit, auctor non pellentesque vel.</a></li>
-          <li><a href="#">Nullam eget dignissim nisi, aliquam feugiat nibh. </a></li>
-          <li><a href="#">Ut nisi nibh, sagittis ut semper elementum.</a></li>
-          <li><a href="#">Pellentesque a odiohasellus vitae libero vel.</a></li>
-          <li><a href="#">Justo pretium dignissimteger semper in estgue.</a></li>
-          <li><a href="#"> In laoreet lacus eros, vel pulvinar urna ultut.</a></li>
-        </ul>
+        <p>Our mission is to provide an Entertaining, Educational, Friendly and Inviting, Functional and Innovative experience of uncompromising quality that meets the health and fitness needs of the entire University.</p>
+        
       </div>
       <div class="grid_4 omega">
         <div class="banner b1 maxheight">
           <h3><a href="#">Control of <br> the Quality </a></h3>
         </div>
         <h3>What We Offer</h3>
-        <p>Retrolom ipsum dolor sit met, consectetur ipiscing elit. In mollis erat mattis neque facilisis, sit amet ultriciesert erat rutrum. Bras facilisis, nulla vel viverra aucto ame magna sodales felis, quis  nibh odio. </p>
-        <ul class="list">
-          <li><a href="#">Setrolis assa elit, auctor non  reto lo. </a></li>
-          <li><a href="#">Master lam eget dignissim nliam feugiat nibherty. </a></li>
-          <li><a href="#">Do nisi nibh  ut semper ntumertolillente derto.</a></li>
-          <li><a href="#">Sertloque a odiohasellus vitae libero velertlo fer.</a></li>
-          <li><a href="#">Monrilo sto pretium dignissimerwtoli moloer. </a></li>
-          <li><a href="#">Ontnteger semper in estgue destro.</a></li>
-        </ul>
+        <p>There are premade workout programs you can follow. These routines allow you to jump right into a program that catches your eye and start burning away the calories. these programs are designed for a specific user group or fitness goal. 
+
+</p>
+        
       </div>
       <div class="clear"></div>
     </div>
@@ -144,23 +102,22 @@ height: 'auto',
             <li><a href="#"><img src="<?php echo base_url();?>/images/page1_img3.jpg" alt=""></a></li>
             <li><a href="#"><img src="<?php echo base_url();?>/images/page1_img4.jpg" alt=""></a></li>
             <li><a href="#"><img src="<?php echo base_url();?>/images/page1_img2.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/page1_img3.jpg" alt=""></a></li>
-            <li><a href="#"><img src="<?php echo base_url();?>/images/page1_img4.jpg" alt=""></a></li>
+            
           </ul>
           <!-- End Elastislide Carousel -->
-           <div class="car_div">
-            <div class="title">What People Say</div>
-          <ul id="carousel1" class="">
-            <li>“Lorem ipsum dolor sit amet, tetur adipiscing elit. In ollis erat matti neque facilisis, sit amet .”</li>
-            <li>"Retrolom ipsum dolor sit met, consectetur ipiscing elit. In mollis erat mattis neque."</li>
-            <li>"Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus."</li>
-        </ul>
-        <a href="#" class="prev1"></a><a href="#" class="next1"></a>
-        </div>
-    </div>
+           
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+    <?php include "footer.php" ?></div>
   </div>
 </div>
 
 </body>
-<?php include "footer.php" ?>
+<div>
+  
+</div>
+
 </html>
