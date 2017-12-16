@@ -28,12 +28,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php include "header.php" ?>
 
 <body>
-<script type="text/javascript" src="http://static.tumblr.com/qsifglb/mZjl87ts1/f8.js"></script>
 
-<script type="text/javascript">
-snowStorm.snowColor = '#bbbbbb'; //
-snowStorm.flakesMaxActive = 30; 
-</script>
     <div id="single">
     
 

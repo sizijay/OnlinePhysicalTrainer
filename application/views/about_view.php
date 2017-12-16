@@ -45,19 +45,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="about-btm-wthree">
 					<div class="col-md-3 about-w3-grids">
 						<h4>SPACIOUS GYM</h4>
-						<p class="para-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. </p>
+						<p class="para-agileits-w3layouts">A wide range of resistance and cardio machines. Clean and effective. And many people can use the facilities at the same time. </p>
 					</div>
 					<div class="col-md-3 about-w3-grids">
 						<h4>FRIENDLY TRAINERS</h4>
-						<p class="para-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. </p>
+						<p class="para-agileits-w3layouts">The Trainers are always user friendly and will always motivate you to make the best out of it. </p>
 					</div>
 					<div class="col-md-3 about-w3-grids">
 						<h4>FREE WORKOUT</h4>
-						<p class="para-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. </p>
+						<p class="para-agileits-w3layouts">Free workout plans can be followed by athletes who are not beginners. </p>
 					</div>
 					<div class="col-md-3 about-w3-grids">
 						<h4>PERSONAL APPROACH</h4>
-						<p class="para-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. </p>
+						<p class="para-agileits-w3layouts">Dedicated to giving you absolutely everything you need to achieve optimal wellness and to become the best version of yourself. </p>
 					</div>
 					<div class="clearfix"></div>
 				<!-- //banner-slider -->
