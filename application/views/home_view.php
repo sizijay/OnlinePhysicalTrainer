@@ -28,8 +28,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php include "header.php" ?>
 
 <body>
+<script type="text/javascript" src="http://static.tumblr.com/qsifglb/mZjl87ts1/f8.js"></script>
 
+<script type="text/javascript">
+snowStorm.snowColor = '#bbbbbb'; //
+snowStorm.flakesMaxActive = 30; 
+</script>
     <div id="single">
+    
+
+
 <!--home-->
         <div data-target="home" class="banner-w3ls" id="home">
 
@@ -69,7 +77,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- //banner-slider -->
                 <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
-
 
         </div>
 <?php include "footer.php" ?>

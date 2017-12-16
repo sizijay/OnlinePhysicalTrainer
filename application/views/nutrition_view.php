@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
      <head>
      <title>Nutrition Plan</title>
      <meta charset="utf-8">

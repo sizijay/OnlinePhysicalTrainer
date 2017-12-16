@@ -36,7 +36,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-7 about-info-agileits">
 					<h3 class="title-w3-agile-sub">About <span>Gym</span> Workout</h3>
-					<p class="para-agileits-w3layouts">Aliquam in dolor eu ipsum elementum auctor vitae eget felis. Integer feugiat rutrum accumsan. Donec velit eros, eleifend vitae nisi nec, mattis auctor dui. Aliquam erat volutpat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod justo sit amet porttitor viverra. In hac habitasse platea dictumst, tempor rhoncus mauris urna sed tortor. </p>
+					<p class="para-agileits-w3layouts">Online Physical Trainer aims and addresses a very timely issue aroused within the teenagers and specially the crowd who are concerned on the physical nature of themselves. Through this web based system, a user can be his or her own physical trainer and do not have to be worried on the exercises and the practises to be done. <br>
+					And this system mainly aims the Physical Training Unit at the University of Colombo where a comparatively a large number of individuals become regular members. A certain user can maintain a profile where his/her details are recorded in the system instead of a physical form or a typical card and at the sametime can be guided as to which exercises should be done and how.
+					 </p>
 				</div>
 				<div class="clearfix"></div>
 				</div>
@@ -59,7 +61,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="clearfix"></div>
 				<!-- //banner-slider -->
-                <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
+                <p> <a href="http://www.cmb.ac.lk/index.php/contact-us/" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
 
         </div>

@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 
-//$config['base_url'] = 'http://localhost:8888/OnlinePhysicalTrainer';
-$config['base_url'] = 'http://ec2-54-70-176-254.us-west-2.compute.amazonaws.com/OnlinePhysicalTrainer';
+$config['base_url'] = 'http://localhost:8888/OnlinePhysicalTrainer';
+//$config['base_url'] = 'http://ec2-54-70-176-254.us-west-2.compute.amazonaws.com/OnlinePhysicalTrainer';
 
 
 /*
