@@ -120,6 +120,7 @@ textarea {
 }
 button {
   overflow: visible;
+
 }
 button,
 select {
@@ -129,7 +130,8 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  
+  -webkit-appearance: button;
+  cursor: pointer;  
   background-color: Black; /* Green */
   border: none;
   color: white;
@@ -138,8 +140,8 @@ input[type="submit"] {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  -webkit-appearance: button;
-  cursor: pointer;
+
+
 }
 button[disabled],
 html input[disabled] {
@@ -6590,4 +6592,5 @@ button.close {
     display: none !important;
   }
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
