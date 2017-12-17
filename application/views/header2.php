@@ -41,10 +41,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li><a href="<?php echo base_url();?>home_user" data-anchor="active">Home</a></li>
                     <li><a href="<?php echo base_url();?>exercise_user">Training Programes</a></li>
                     <li><a href="<?php echo base_url();?>Nutrition_user">Nutrition Plans</a></li>
-                    <li><a href="<?php echo base_url();?>Review_user">Reviews</a></li>
+                    <li><a href="<?php echo base_url();?>Review_user">Gallery</a></li>
                     <li><a href="<?php echo base_url();?>contact_user" >Contact</a></li>
                     <li><a href="<?php echo base_url();?>about_user">About</a></li>
-                    <li><a href="<?php echo base_url();?>home" >Logout</a></li>
+                    <li><a href="<?php echo base_url();?>login" >Logout</a></li>
                 </ul>
             </div>
             <div class="clearfix"> </div>

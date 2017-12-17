@@ -33,10 +33,10 @@ Class Login extends CI_Controller {
                 $this->session->set_userdata($data);
                 //print_r($_SESSION);
                 $this->session->set_flashdata('welcome',"Welcome");
-                redirect(home);
+                redirect('home_user');
             }else{
                 $this->session->set_flashdata('errmsg',"Wrong Email or Password");
-                redirect(login);
+                redirect('login');
             }
         }
     }
