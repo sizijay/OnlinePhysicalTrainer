@@ -39,10 +39,9 @@
 </header>
 
 <!--==============================Content=================================-->
-<<<<<<< HEAD
 
-<div class="content"><div class="ic">December 18, 2017!</div>
-=======
+
+
 <div id="single">
 <div data-target="about" class="about" id="about">
 <div class="contact-w3layouts">
@@ -58,7 +57,7 @@
   </div>
 </div>
   
->>>>>>> 813e65e9270bf66d2837d6ad56083441b89442de
+
   <div class="container_12">
     <div class="grid_8 prefix_4">
       <h2 class="mb0">Featured Food Types</h2>
