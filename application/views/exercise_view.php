@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+
+.class_right{
+position:absolute;
+left:22%;
+padding: 40px;
+}
+
+.square{
+	margin-top: 350px;
+	padding-top:10px;
+	text-align: center;
+	width:1230px;
+	height:220px;
+	background:black;
+}
+
+.square h3{
+	color:white;
+}
+
+p{
+	color:white;
+}
+
+p1{
+	font-size: 35px;
+	color: white;
+}
+
+
+</style>
+
 <title>Exercise
 </title>
 <!-- for-mobile-apps -->
@@ -32,108 +65,103 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div data-target="about" class="about" id="about">
 
         <!--section3-->
-        <div data-target="classes" class="classes" id="classes">
-           <div class="container">
+       <div data-target="classes" class="classes" id="classes">
+       <div class="container">
 		   <h3 class="title-w3-agile">Classes</h3>
 		   <div class="classes_wrapper">
-		 	<div class="row class_box">
- 			  <div class="col-md-6 classes-grid-w3ls">
-				<div class="class_right black">
-					<h3>BODY BUILDING</h3>
-					<p>Lorem ipsum dolor sit amet.</p>
+		 	 <div class="row class_box">
+<!---Excercises for the Beginner Trainers----------------------------------------------------------------------------------------------------------->
+				<a href="<?php echo base_url();?>Registered_Exercise">Calorie Sheet</a><br>
+				<div class="class_left img2"></div>
+				<div class="class_left img1"></div>
+				<div class="square">
+					<h3>BEGINNER</h3>
+					<p>Hello there newbie ! Sign up for better info..</p>
 					<div class="class_img">
-					  <img src="images/c2.jpg" alt=""/>
-					  <div class="class_desc">
-					  	<h5>Robert Smith</h5>
-					  	<h4>Trainer</h4>
-					  </div>
-					    <div class="clearfix"></div>
+						<div class="class_desc">
+							<h4>Trainer Availabale if needed</h4>
+						</div>
+							<div class="clearfix"></div>
 					</div>
 					<div class="timings-agileits-w3layouts">
 						<h6 class="clr-w3ls">Class Time</h6>
-						<p>Mon, Wed, Thu |</p>
-						<span>9:00am to 11:00am</span>
+						<p>Mon, Wed,Fri |</p>
+						<span>9:00am to 5:00pm</span>
 					</div>
 				</div>
-				<div class="class_left img1">
-				</div>
-				<div class="clearfix"></div>
-			  </div>
-			   <div class="col-md-6 classes-grid-w3ls">
-				<div class="class_right1 white">
-					<h3>Spinning</h3>
-					<p>Lorem ipsum dolor sit amet.</p>
-					<div class="class_img">
-					  <img src="images/c8.jpg" alt=""/>
-					  <div class="class_desc1">
-					  	<h5>Petter john</h5>
-					  	<h4>Trainer</h4>
-					  </div>
-					   <div class="clearfix"></div>
-					</div>
-					<div class="timings-agileits-w3layouts">
-						<h6>Class Time</h6>
-						<p>Tue, Thu, Sat |</p>
-						<span>4:00pm to 7:00pm</span>
-					</div>
-				  </div>
+				<br>
+				<p1>Step1 : Work on the Running Machine</p1><br>
+				<li class=""><a href="#"><img src="<?php echo base_url();?>/images/treadmill-benefits1.png" alt=""></a></li>
+				<br>
+				<br>
 
-				<div class="class_left img2">
-				</div>
-			    </div>
-			  <div class="clearfix"></div>
-			 </div>
-			 <div class="row class_box">
- 			   <div class="col-md-6 classes-grid-w3ls">
-				<div class="class_right white">
-					<h3>AEROBICS</h3>
-					<p>Lorem ipsum dolor sit amet.</p>
-					<div class="class_img">
-					  <img src="images/c9.jpg" alt=""/>
-					  <div class="class_desc">
-					  	<h5>Zara Keron</h5>
-					  	<h4>Trainer</h4>
-					  </div>
-					    <div class="clearfix"></div>
-					</div>
-					<div class="timings-agileits-w3layouts">
-						<h6>Class Time</h6>
-						<p>Wed, Fri, Sun |</p>
-						<span>6:00am to 9:00am</span>
-					</div>
-				</div>
-				<div class="class_left img3">
-				</div>
-				<div class="clearfix"></div>
-			  </div>
-			   <div class="col-md-6 classes-grid-w3ls client-last-agileits">
-				<div class="class_right1 black">
-					<h3>CROSSFIT</h3>
-					<p>Lorem ipsum dolor sit amet.</p>
-					<div class="class_img">
-					  <img src="images/c10.jpg" alt=""/>
-					  <div class="class_desc1">
-					  	<h5>Jessy Reo</h5>
-					  	<h4>Trainer</h4>
-					  </div>
-					   <div class="clearfix"></div>
-					</div>
-					<div class="timings-agileits-w3layouts">
-						<h6 class="clr-w3ls">Class Time</h6>
-						<p>Mon, Wed, Thu |</p>
-						<span>9:00am to 11:00am</span>
-					</div>
-				 </div>
-				<div class="class_left img4">
-				</div>
-			    </div>
-			   <div class="clearfix"></div>
-			 </div>
+				<p1>Step2 : Work on your Biceps,Shoulders and ForeArms</p1><br>
+				<li class=""><a href="#"><img src="<?php echo base_url();?>/images/22.jpg" alt=""></a></li>
+
+<!---Excercises for the Intermediate Trainers------------------------------------------------------------------------------------------------------------------>
+<div class="square">
+	<h3>INTERMEDIATE</h3>
+	<p>Hello there ! Hope Everything is fine..</p>
+	<div class="class_img">
+		<div class="class_desc">
+			<h4>Trainer Availabale if needed</h4>
+		</div>
+			<div class="clearfix"></div>
+	</div>
+	<div class="timings-agileits-w3layouts">
+		<h6 class="clr-w3ls">Class Time</h6>
+		<p>Mon, Wed,Fri |</p>
+		<span>9:00am to 5:00pm</span>
+	</div>
+</div>
+<br><br>
+<p1>Work on your Biceps,Shoulders and ForeArms</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/22.jpg" alt=""></a></li><br><br>
+<p1>Work on your Abs</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/23.jpg" alt=""></a></li><br><br>
+<p1>Work on your Triceps</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/25.jpg" alt=""></a></li>
+
+<!---Excercises for the Pro Trainers------------------------------------------------------------------------------------------------------------------>
+
+
+<div class="square">
+ <h3>PRO</h3>
+ <p>You are on the right track mate..</p>
+ <div class="class_img">
+	 <div class="class_desc">
+		 <h4>Trainer Not Availabale</h4>
+	 </div>
+		 <div class="clearfix"></div>
+ </div>
+ <div class="timings-agileits-w3layouts">
+	 <h6 class="clr-w3ls">Class Time</h6>
+	 <p>Mon, Wed,Fri |</p>
+	 <span>9:00am to 5:00pm</span>
+ </div>
+</div>
+
+<br><br>
+
+<p1>Work on your Biceps,Shoulders and ForeArms</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/22.jpg" alt=""></a></li><br><br>
+<p1>Work on your Abs</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/23.jpg" alt=""></a></li><br><br>
+<p1>Work on your Triceps</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/24.jpg" alt=""></a></li><br><br>
+<p1>Work on your Shoulder and Back</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/25.jpg" alt=""></a></li><br><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/26.jpg" alt=""></a></li><br><br>
+<p1>Work on your Calves</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/41.jpg" alt=""></a></li><br><br>
+<p1>Work on your Chest</p1><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/42.png" alt=""></a></li><br><br>
+<li class=""><a href="#"><img src="<?php echo base_url();?>/images/43.png" alt=""></a></li><br><br>
+
+
 
 		</div>
  	</div>
-<!--//section3-->
-
     </div>
     </div>
 

@@ -93,14 +93,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="w3_agileits_main_grid w3l_main_grid">
               <span class="agileits_grid">
                 <label>Height </label>
-                <input type="text" id= "height" name="height" placeholder="Height" required="">
+                <input type="text" id= "height" name="height" placeholder="Height (cm)" required="">
                 </span>
             </div>
 
             <div class="w3_agileits_main_grid w3l_main_grid">
               <span class="agileits_grid">
                 <label>Weight </label>
-                <input type="text" id= "weight" name="weight" placeholder="Weight" required="">
+                <input type="text" id= "weight" name="weight" placeholder="Weight (kg)" required="">
                 </span>
             </div>
 

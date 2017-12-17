@@ -1,6 +1,5 @@
 <html>
 
-	<body>
 		<head>
 <title>Department of Physical Education University of Colombo
 </title>
@@ -19,8 +18,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="<?php echo base_url();?>css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!--fonts-->
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+<!-- <script type="text/javascript" src="snowstorm.js"></script> -->
 <!--//fonts-->
-</head>
+
 		<!-- header -->
                  <div class="header-inner">
 					  <h1 class="logo">
@@ -39,11 +39,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav navbar-right">
 									<li><a href="<?php echo base_url();?>home" data-anchor="active">Home</a></li>
-									<li><a href="<?php echo base_url();?>about">About</a></li>
 									<li><a href="<?php echo base_url();?>exercise">Training Programes</a></li>
 									<li><a href="<?php echo base_url();?>nutrition">Nutrition Plans</a></li>
-									<li><a href="<?php echo base_url();?>reviews">Reviews</a></li>
+									<li><a href="<?php echo base_url();?>reviews">Gallery</a></li>
 									<li><a href="<?php echo base_url();?>contact" >Contact</a></li>
+									<li><a href="<?php echo base_url();?>about">About</a></li>
 									<li><a href="<?php echo base_url();?>login" >Login</a></li>
 								</ul>
 							</div>
@@ -52,5 +52,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"></div>
 				</div>
 			<!-- //header -->
-	</body>
-</html>
+			<script type="text/javascript" src="http://static.tumblr.com/qsifglb/mZjl87ts1/f8.js"></script>
+
+			<script type="text/javascript">
+			snowStorm.snowColor = '#bbbbbb'; //
+			snowStorm.flakesMaxActive = 30; 
+			</script>
+			</head>
