@@ -17,7 +17,7 @@ Class BMI extends CI_Controller {
 
         $height = $respond->height;
         $weight = $respond->weight;
-        if 
+        
         $BMI = $weight/($height*$height);
         $data = array('BMI' => $BMI);
         
