@@ -81,32 +81,32 @@
           <br>
           
         </div></div>
-        <div class="rec"><img src="<?php echo base_url();?>/images/page4_img1.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
+        <div class="rec"><img src="<?php echo base_url();?>/images/page4_img4.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
             <h4 class="head2">High-Protein Oatmeal</h4>Oats are a classic morning staple, but if you don't want to clean up a pot before rushing to the gym in the morning, try this one as an afternoon snack. The recipe serves two, but we suggest dividing it into three portions and refrigerating the remaining two for smaller snack-size servings.
             <br>
             
          </div></div>
-        <div class="rec"><img src="<?php echo base_url();?>/images/page4_img2.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
+        <div class="rec"><img src="<?php echo base_url();?>/images/page4_img5.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
             <h4 class="head2">Blueberry Banana Protein Smoothie</h4>It doesn't get much easier than blueberries, bananas, yogurt, almond milk, and ice. Just be sure to swap out the suggested nonfat yogurt for a partial- or full-fat version— it'll give you more fuel to crush your workout.
             <br>
             
           </div></div>
-        <div class="rec"><img src="<?php echo base_url();?>/images/page4_img3.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
+        <div class="rec"><img src="<?php echo base_url();?>/images/page4_img6.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
             <h4 class="head2">Banana Bread Greek Yogurt Parfait</h4>This banana bread-inspired parfait is not nearly as complicated as baking up a sweet treat. You can pre-make a few and then pop them in the fridge for a grab-and-go snack on busy days.
             <br>
             
           </div></div>
-          <div class="rec"><img src="<?php echo base_url();?>/images/page4_img1.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
+          <div class="rec"><img src="<?php echo base_url();?>/images/page4_img7.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
               <h4 class="head2">Apple Peanut Butter Energy Bites</h4>The classic apple-and-peanut-butter combo gets an upgrade from raisins and chia seeds. If you're in a rush, skip the extras and just grab an apple with PB. Try stashing some to-go packs of peanut butter or almond butter in your gym bag so you can chow down on your way to indoor cycling class.
               <br>
               
            </div></div>
-          <div class="rec"><img src="<?php echo base_url();?>/images/page4_img2.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
+          <div class="rec"><img src="<?php echo base_url();?>/images/page4_img8.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
               <h4 class="head2">Mocha Protein Shake</h4>Protein shakes can taste chalky boring, but when there's coffee and chocolate involved, we're big fans. This blogger suggests adding an extra tablespoon of sugar, but we'd suggest skipping it for an even healthier (and easier!) recipe.
               <br>
               
             </div></div>
-          <div class="rec"><img src="<?php echo base_url();?>/images/page4_img3.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
+          <div class="rec"><img src="<?php echo base_url();?>/images/page4_img9.jpg" alt="" class="img_inner fleft "><div class="extra_wrapper">
               <h4 class="head2">Fresh Strawberry Parfait With Cottage Cheese</h4>Cottage cheese gives this parfait a light and creamy texture and adds a little extra fat, which will keep you feeling satisfied longer.
               <br>
               
