@@ -77,7 +77,7 @@ height: 'auto',
 <!--==============================Content=================================-->
 
 
-<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - September 21, 2013!</div>
+<div class="content"><div class="ic"></div>
 
   <div class="container_12">
 
@@ -105,10 +105,10 @@ height: 'auto',
             <!--<li><a href="#"><img src="<?php echo base_url();?>/images/dier3.jpg" alt=""></a></li>-->
           </ul>
 
-          
+
         </div>
         <nav>
-            <a href="<?php echo base_url();?>calorie_sheet">Calorie Sheet</a>
+            <a href="<?php echo base_url();?>Calorie_sheet">Calorie Sheet</a><br>
             <a href="<?php echo base_url();?>meals">Meals</a>
             <a href="#">Comments</a>
           </nav>

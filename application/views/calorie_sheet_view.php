@@ -75,7 +75,7 @@ height: 'auto',
 
 <!--==============================Content=================================-->
 
-<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - September 21, 2013!</div>
+<div class="content"><div class="ic">December 18, 2017!</div>
   <div class="container_12">
     <div class="grid_12">
       <h3 class="mb0">Featured Food Types</h3>
