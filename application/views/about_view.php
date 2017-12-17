@@ -35,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="col-md-7 about-info-agileits">
-					<h3 class="title-w3-agile-sub">About <span>Gym</span> Workout</h3>
+					<h3 class="title-w3-agile-sub">About <span>Online</span> Physical Trainer</h3>
 					<p class="para-agileits-w3layouts">Online Physical Trainer aims and addresses a very timely issue aroused within the teenagers and specially the crowd who are concerned on the physical nature of themselves. Through this web based system, a user can be his or her own physical trainer and do not have to be worried on the exercises and the practises to be done. <br>
 					And this system mainly aims the Physical Training Unit at the University of Colombo where a comparatively a large number of individuals become regular members. A certain user can maintain a profile where his/her details are recorded in the system instead of a physical form or a typical card and at the sametime can be guided as to which exercises should be done and how.
 					 </p>
@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="about-btm-wthree">
 					<div class="col-md-3 about-w3-grids">
 						<h4>SPACIOUS GYM</h4>
-						<p class="para-agileits-w3layouts">A wide range of resistance and cardio machines. Clean and effective. And many people can use the facilities at the same time. </p>
+						<p class="para-agileits-w3layouts">A wide range of resistance and cardio machines. Clean and effective. And many students can use the facilities at the same time. </p>
 					</div>
 					<div class="col-md-3 about-w3-grids">
 						<h4>FRIENDLY TRAINERS</h4>
@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-3 about-w3-grids">
 						<h4>FREE WORKOUT</h4>
-						<p class="para-agileits-w3layouts">Free workout plans can be followed by athletes who are not beginners. </p>
+						<p class="para-agileits-w3layouts">Free workout plans can be followed by students who are not beginners. </p>
 					</div>
 					<div class="col-md-3 about-w3-grids">
 						<h4>PERSONAL APPROACH</h4>
