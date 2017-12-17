@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
-<title>Login
+<title>Home
 </title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,15 +39,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 
-<?php include "header.php" ?>
-<<body>
+<?php include "header2.php" ?>
+<body>
 <!-- banner -->
   <div class="center-container">
       <div class="contact-w3layouts">
 <!--  <div class="banner-dott">-->
-
-
-
 <!-- about -->
   <div class="about" id="about">
     <h3 class="heading">WELCOME!</h3>
@@ -84,27 +80,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="w3ls-about-grids">
       <div class="col-md-4 col-sm-4 abt-btm-grid w3ls-ma">
         <img src="images/about1.jpg" class="img-responsive" alt="images"/>
-        <div class="layer">
-          <h3>About lorem ipsum dolor sit amet phascellous Lorem</h3>
-          <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, 
-          ipsum eu faucibus cursus, ex tortor elementum leo,</p>
-        </div>
+        
       </div>
       <div class="col-md-4 col-sm-4 abt-btm-grid w3ls-ma">
         <img src="images/about2.jpg" class="img-responsive" alt="images"/>
-        <div class="layer">
-          <h3>About lorem ipsum dolor sit amet phascellous Lorem</h3>
-          <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, 
-          ipsum eu faucibus cursus, ex tortor elementum leo,</p>
-        </div>
+        
       </div>
       <div class="col-md-4 col-sm-4 abt-btm-grid w3ls-ma">
         <img src="images/about3.jpg" class="img-responsive" alt="images"/>
-        <div class="layer">
-          <h3>About lorem ipsum dolor sit amet phascellous Lorem</h3>
-          <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, 
-          ipsum eu faucibus cursus, ex tortor elementum leo,</p>
-        </div>
+        
       </div>
       <div class="clearfix"></div>
     </div>
@@ -152,7 +136,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       <div class="w3_agile_team_grids">
         <div class="col-md-3 w3_agile_team_grid">
           <div class="hover14 column">
-            <figure><img src="images/team1.png" alt=" " class="img-responsive" /></figure>
+            <figure><img src="images/team1.jpg" alt=" " class="img-responsive" /></figure>
           </div>
           <h3>Mrs.Lalitha Perera</h3>
           <p>Trainer</p>
@@ -160,7 +144,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="col-md-3 w3_agile_team_grid">
           <div class="hover14 column">
-            <figure><img src="images/team2.png" alt=" " class="img-responsive" /></figure>
+            <figure><img src="images/team2.jpg" alt=" " class="img-responsive" /></figure>
           </div>
           <h3>Mr.Randhir Wickramasinghe</h3>
           <p>Trainer</p>
@@ -168,7 +152,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="col-md-3 w3_agile_team_grid">
           <div class="hover14 column">
-            <figure><img src="images/team3.png" alt=" " class="img-responsive" /></figure>
+            <figure><img src="images/team3.jpg" alt=" " class="img-responsive" /></figure>
           </div>
           <h3>Mr.Anura Lokuge</h3>
           <p>Trainer</p>
@@ -176,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="col-md-3 w3_agile_team_grid">
           <div class="hover14 column">
-            <figure><img src="images/team4.png" alt=" " class="img-responsive" /></figure>
+            <figure><img src="images/team4.jpg" alt=" " class="img-responsive" /></figure>
           </div>
           <h3>Mr.Kelum Wijerathne</h3>
           <p>Trainer</p>

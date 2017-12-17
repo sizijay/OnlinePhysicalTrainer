@@ -55,9 +55,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                 echo $row->detail;
                                             }else{
                                                 ?>
-                                                <?php echo form_open('Exercise_user/open');?>
-                                                <center><input type="button" class="btn btn-success" value="OPEN" onclick="open(<?php echo $row->t_no;?>)"></center>
-                                                <?php  echo form_close();?>
+                                                
+                                                <center><input type="submit" class="btn btn-success" value="OPEN" ></center>
+                                                
                                                 <?php
                                             }
                                             ?>
