@@ -6,7 +6,7 @@ class BMI_model extends CI_Model
     public function getData()
     {
         $NIC = $this->session->userdata('NIC');
-        $this->db->where('NIC',$NIC);
+        $this->db->where('login_NIC',$NIC);
        
         $respond = $this->db->get('student');
         
