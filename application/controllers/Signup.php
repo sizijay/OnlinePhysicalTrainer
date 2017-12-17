@@ -27,6 +27,7 @@ Class Signup extends CI_Controller {
 		else{
 			$this->load->model('Signup_model');
 			$this->Signup_model->insertUserdata();
+			$this->load->view('login_view');
 		}
 
 	}
