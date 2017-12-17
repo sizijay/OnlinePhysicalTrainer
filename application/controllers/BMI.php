@@ -14,8 +14,10 @@ Class BMI extends CI_Controller {
     {
          $this->load->model('BMI_model');
         $respond = $this->BMI_model->getData();
+
         $height = $respond->height;
         $weight = $respond->weight;
+        if 
         $BMI = $weight/($height*$height);
         $data = array('BMI' => $BMI);
         
