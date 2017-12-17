@@ -70,7 +70,10 @@ h3 {
     <div class="container">
       <div class="w3ls_banner_bottom_grids">
         <div class="col-md-6 w3_agileits_about_grid_left">
-          <h1>Your BMI is: $BMI</h1>
+        
+          <h1>Your BMI is: <?php echo $BMI; ?> </h1>
+          <br><br><br>
+          <p>Your body mass index, or BMI, is a measure of your body fat based on your height and weight, according to the National Heart, Lung and Blood Institute. In order to be at an ideal weight, you must have a BMI of 18.5 to 24.9. A BMI of 25 to 29.9 is considered overweight, and below 18.5 is considered underweight.</p>
           <br><br><br>
           
           
