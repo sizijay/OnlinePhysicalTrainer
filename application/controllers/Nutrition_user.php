@@ -15,7 +15,14 @@ Class Nutrition_user extends CI_Controller
         $this->load->view("nutritionplan_userview",$data);
     }
 
+//    public function open(){
+//        $id=$this->input->get('btn_sub');
+//        $this->load->model('nutrition_model');
+//        $data2=$this->nutrition_model->open2($id);
 
+       //$this->load->view("nutritionplan_userview",$data2);
+
+    //}
 
 }
 

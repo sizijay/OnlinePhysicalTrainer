@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Nutrition Plans
+    <title>Exercise
     </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,61 +27,61 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="contact-w3layouts">
             <div class="container">
                 <div class="col-md-6 contact-agileits-w3layouts-left">
-                    <h3 class="title-w3-agile-sub"><span>Nutrition Plans</span></h3>
+                    <h3 class="title-w3-agile-sub"><span>Training Programs</span></h3>
                 </div>
                 <br/>
                 <br/>
                 <div class="col-md-6 mail-grid1-form ">
-                <div class="table-responsive">
-                    <table class="table table-bordered">
-                        <tr>
-                            <th>ID</th>
-                            <th>Nutrition Plan Name</th>
-                            <th>Details</th>
-<!--                            <th></th>-->
-                        </tr>
-                        <?php
-                        if($fetch_data->num_rows()>0){
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>ID</th>
+                                <th>Training Program</th>
+                                <th>Details</th>
+                                <!--                            <th></th>-->
+                            </tr>
+                            <?php
+                            if($fetch_data->num_rows()>0){
 
-                            foreach($fetch_data->result()as $row){
-                                $id=$row->n_no;
-                            ?>
-                                <tr>
-                                    <td><?php echo $row->n_no?></td>
-                                    <td><?php echo $row->n_name?></td>
-                                    <td>
-                                        <?php
+                                foreach($fetch_data->result()as $row){
+                                    $id=$row->t_no;
+                                    ?>
+                                    <tr>
+                                        <td><?php echo $row->t_no?></td>
+                                        <td><?php echo $row->t_name?></td>
+                                        <td>
+                                            <?php
                                             if($id==1){
-                                            echo $row->detail;
+                                                echo $row->detail;
                                             }else{
                                                 ?>
-<!--                                                --><?php //echo form_open('Nutrition_user/open');?>
-                                                <center><input type="submit" name="btn_sub" class="btn btn-success" value="OPEN" id="<?php echo $row->n_no ?>" ></center>
-<!--                                                    --><?php // echo form_close();?>
-                                            <?php
+                                                <?php echo form_open('Exercise_user/open');?>
+                                                <center><input type="button" class="btn btn-success" value="OPEN" onclick="open(<?php echo $row->t_no;?>)"></center>
+                                                <?php  echo form_close();?>
+                                                <?php
                                             }
                                             ?>
 
-                                    </td>
+                                        </td>
 
-                                </tr>
-                            <?php
+                                    </tr>
+                                    <?php
+
+                                }
+
+                            }else{
 
                             }
-
-                        }else{
-
-                        }
-                        ?>
-                    </table>
+                            ?>
+                        </table>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
             </div>
+
         </div>
 
     </div>
-
-</div>
 
     <?php include "footer.php" ?>
 </body>
