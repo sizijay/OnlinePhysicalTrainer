@@ -42,12 +42,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php include "header2.php" ?>
 <body>
 <!-- banner -->
+
   <div class="center-container">
       <div class="contact-w3layouts">
 <!--  <div class="banner-dott">-->
 <!-- about -->
   <div class="about" id="about">
-    <h3 class="heading">WELCOME!</h3>
+    <h3 class="heading">WELCOME!</h3><br>
     <div class="container">
       <div class="w3ls_banner_bottom_grids">
         <div class="col-md-6 w3_agileits_about_grid_left">
@@ -178,36 +179,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <!-- contact -->
-  <div id="contact" class="contact">
-    
-    <div class="gal-btm">
-      
-        <div class="col-md-5 drop-pad sign-gd-two">
-         
-        <div class="col-md-7 map">
-        
-        </div>
-        
-      </div>
-    </div>
-     
-  <div class="contactform">
-    <div class="container">
-        <h4>Still have any doughts? leave us a message.</h4>
-
-       <?php echo validation_errors();?>
-       <?php echo form_open('User/form');?>
-          
-          
-          <textarea name="review" placeholder="Type Your Text Here...." required=""></textarea>
-          <input type="submit" value="Submit" />
-       <?php  echo form_close();?>
-
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+  
 <!-- //contact -->
 
 <!-- footer -->
