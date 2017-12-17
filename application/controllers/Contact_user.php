@@ -21,13 +21,13 @@ Class Contact_user extends CI_Controller
 
             $this->load->view('contact_user');
         } else {
-            $this->load->model('contact_model');
-            $result = $this->contact_model->insertdata();
+            $this->load->model('contact_usermodel');
+            $result = $this->contact_usermodel->insertdata();
             //print_r($result);
             if ($result) {
 
-                $this->load->model('contact_model');
-                $this->contact_model->insertdat();
+                $this->load->model('contact_usermodel');
+                $this->contact_usermodel->insertdat();
                 echo '<script language="javascript">';
                 echo 'alert("Message successfully sent !")';
                 echo '</script>';

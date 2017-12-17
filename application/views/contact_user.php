@@ -41,7 +41,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="col-md-6 mail-grid1-form ">
                     <h3 class="title-w3-agile-sub">Send a <span>Message</span></h3>
                     <?php echo validation_errors();?>
-                    <?php echo form_open('contact/form');?>
+                    <?php echo form_open('contact_user/form');?>
 
                     <input type="text" name="Name" placeholder="StudentID" required="" />
                     <input type="email" name="Email" placeholder="Email" required="" />
