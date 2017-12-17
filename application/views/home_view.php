@@ -30,6 +30,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
     <div id="single">
+    
+
+
 <!--home-->
         <div data-target="home" class="banner-w3ls" id="home">
 
@@ -69,7 +72,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- //banner-slider -->
                 <p> <a href="#" data-anchor="about" class="btn-normal">More About Us</a> </p>
 			</div>
-
 
         </div>
 <?php include "footer.php" ?>

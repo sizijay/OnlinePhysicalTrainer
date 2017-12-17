@@ -29,42 +29,7 @@
 
      <script src="js/jquery.catslider.js"></script>
      <script src="js/jquery.touchSwipe.min.js"></script>
-    <script>
-    $(window).load (  function(){
-
-
-        $( '#mi-slider' ).catslider();
-
-        $( '#carousel' ).elastislide( {
-        orientation : 'vertical'
-      } );
-
-
-
-      });
-
-       $(window).load (
-    function(){$('#carousel1').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 220, items: {
-      visible : {min: 1,
-       max: 1
-},
-height: 'auto',
- width: 220,
-
-    }, responsive: true,
-
-    scroll: 1,
-
-    mousewheel: false,
-
-    swipe: {onMouse: false, onTouch: false}});
-
-    } );
-
-    $(document).ready(function(){
-      $().UItoTop({ easingType: 'easeOutQuart' });
-    });
-  </script>
+    
 
      </head>
      <body  class="page1">
@@ -74,11 +39,29 @@ height: 'auto',
 </header>
 
 <!--==============================Content=================================-->
+<<<<<<< HEAD
 
 <div class="content"><div class="ic">December 18, 2017!</div>
+=======
+<div id="single">
+<div data-target="about" class="about" id="about">
+<div class="contact-w3layouts">
+<div class="container">
+<div class="col-md-6 contact-agileits-w3layouts-left">
+<div class="container_12">
+  <div class="grid_8 prefix_4">
+
+      <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>nutrition">Nutrition Plans</a></button>
+      <button type="button" class="btn btn-default"> <a href="<?php echo base_url();?>meals">Meal Types</a></button>
+
+        
+  </div>
+</div>
+  
+>>>>>>> 813e65e9270bf66d2837d6ad56083441b89442de
   <div class="container_12">
-    <div class="grid_12">
-      <h3 class="mb0">Featured Food Types</h3>
+    <div class="grid_8 prefix_4">
+      <h2 class="mb0">Featured Food Types</h2>
     </div>
     <div class="clear"></div>
     <div class="prod">
@@ -89,57 +72,58 @@ height: 'auto',
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big2.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img2.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big2.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img2.jpg" alt=""></a><a href="#">Contains 350-360 calories in 100g. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big3.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img3.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big3.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img3.jpg" alt=""></a><a href="#">Contains 50-55 calories in 100g. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big4.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img4.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="clear"></div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big5.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img5.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big6.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img6.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big7.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img7.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
-        </div>
-      </div>
-      <div class="grid_3">
-        <div class="box">
-          <div class="maxheight"><a href="images/big8.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img8.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big4.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img4.jpg" alt=""></a><a href="#">Contains 30-35 calories in 100g. </a></div>
         </div>
       </div>
       <div class="clear"></div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big9.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img9.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big5.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img5.jpg" alt=""></a><a href="#">Contains 35-40 calories in 100g. </a></div>
         </div>
       </div>
       <div class="grid_3">
         <div class="box">
-          <div class="maxheight"><a href="images/big10.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img10.jpg" alt=""></a><a href="#">Lorem ipsum dolor sit aconsectetur adipiscing elit. In mollis erat mat. </a></div>
+          <div class="maxheight"><a href="images/big6.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img6.jpg" alt=""></a><a href="#">Contains 18-25 calories in 100g. </a></div>
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big7.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img7.jpg" alt=""></a><a href="#">Contains 365-380 calories in 100g. </a></div>
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big8.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img8.jpg" alt=""></a><a href="#">Contains 40-45 calories in 100g. </a></div>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big9.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img9.jpg" alt=""></a><a href="#">Contains 30-40 calories in 100g. </a></div>
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="box">
+          <div class="maxheight"><a href="images/big10.jpg" class="gal"><img src="<?php echo base_url();?>/images/page2_img10.jpg" alt=""></a><a href="#">Contains 40-50 calories in 100g. </a></div>
         </div>
       </div>
     </div>
-    <p> <a href="#" data-anchor="about" class="btn-normal">Edit Calory Sheet</a> </p>
   </div>
-</div>
+</div></div></div></div>
 
-
+<?php include "footer.php" ?></div>
 </body>
-<?php include "footer.php" ?>
+
+
+
 </html>

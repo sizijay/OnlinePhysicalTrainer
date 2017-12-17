@@ -34,8 +34,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p class="sub">Colombo 07, Sri Lanka<span class="glyphicon glyphicon-map-marker icon" aria-hidden="true"></span></p>
 				<p class="sub">Mon-Fri : 9am - 6pm.  Sat : 9am - 12pm<span class="glyphicon glyphicon-time icon" aria-hidden="true"></span></p>
 
-				<p class="add"><span>Tel :</span> +0 (020) 123-5338<span class="glyphicon glyphicon glyphicon-earphone icon" aria-hidden="true"></span></p>
-				<p class="add"><span>Email :</span> <a class="mail" href="mailto:mail@example.com">info(at)example.com</a><span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span></p>
+				<p class="add"><span>Tel :</span> (+94) 0112581835<span class="glyphicon glyphicon glyphicon-earphone icon" aria-hidden="true"></span></p>
+				<p class="add"><span>Email :</span> <a class="mail" href="mailto:mail@example.com">info(at)www.cmb.ac.lk</a><span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span></p>
 
 			</div>
 			<div class="col-md-6 mail-grid1-form ">
