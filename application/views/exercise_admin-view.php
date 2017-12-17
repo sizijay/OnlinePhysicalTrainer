@@ -20,7 +20,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 <!--//fonts-->
 </head>
-<?php include "header2.php" ?>
+<?php include "headerAdmin.php" ?>
 <body>
     <div id="single">
 <!--about-->
@@ -140,7 +140,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  	</div>
 <!--//section3-->
     </div>
+    <?php include "footer.php" ?>
     </div>
 </body>
-<?php include "footer.php" ?>
+
 </html>

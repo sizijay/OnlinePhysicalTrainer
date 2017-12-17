@@ -33,11 +33,19 @@ p1{
 p2{
 	font-size: 25px;
 	color:white;
-
+}
+p3{
+	font-size: 15px;
+	color:white;
 }
 
 .info{
 	text-align: left;
+}
+
+.Schedule{
+	display: none;
+	visibility: hidden;
 }
 
 
@@ -62,16 +70,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 <!--//fonts-->
 </head>
-<?php include "header.php" ?>
+<?php include "header2.php" ?>
 <body>
-    <div id="single">
+        <div id="single">
 <!--about-->
 
         <div data-target="exercise" class="exercise" id="exercise">
 
             <!--section3-->
 
-        <div data-target="about" class="about" id="about">
+       <div data-target="about" class="about" id="about">
 
         <!--section3-->
        <div data-target="classes" class="classes" id="classes">
@@ -84,24 +92,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="class_left img2"></div>
 				<div class="class_left img1"></div>
 				<div class="square">
-					<h3>BEGINNER</h3>
-					<p>Hello there newbie ! Sign up for better info..</p>
-					<div class="class_img">
-						<div class="class_desc">
-							<h4>Trainer Availabale if needed</h4>
-						</div>
-							<div class="clearfix"></div>
-					</div>
-					<div class="timings-agileits-w3layouts">
-						<h6 class="clr-w3ls">Class Time</h6>
-						<p>Mon, Wed,Fri |</p>
-						<span>9:00am to 5:00pm</span>
-					</div>
+				<h3>BEGINNER</h3>
+				<p>Hello there newbie ! Sign up for better info..</p>
+				<div class="class_img">
+				<div class="class_desc">
+				<h4>Trainer Availabale if needed</h4>
+				</div>
+	   		<div class="clearfix"></div>
+				</div>
+				<div class="timings-agileits-w3layouts">
+				<h6 class="clr-w3ls">Class Time</h6>
+				<p>Mon, Wed,Fri |</p>
+			  <span>9:00am to 5:00pm</span>
+				</div>
 				</div>
 				<br>
 				<p1>Step1 : Work on the Running Machine</p1><br>
 				<div class="info">
-				<p2>
+				<p3>
 1)
  Make sure you warm up.
 Run or walk at a slow, easy pace for 5-10 minutes. It's tempting to just jump on the treadmill and start your workout, but you should allow time for a warm up.
@@ -149,7 +157,8 @@ Another trick to pass the time on a treadmill is to visualize an outdoor route t
 <br><br>
 12)
 Don't look down.
-It's hard not to continually look to see how much time or distance you have left, but if you're looking down, your running form will suffer. Don’t stare at your feet either. You're likely to run hunched over, which could lead to back and neck pain. Looking straight ahead is the safest way to run, whether you're on the treadmill or running outside.</p2>
+It's hard not to continually look to see how much time or distance you have left, but if you're looking down, your running form will suffer. Don’t stare at your feet either. You're likely to run hunched over, which could lead to back and neck pain. Looking straight ahead is the safest way to run, whether you're on the treadmill or running outside.
+</p3>
 <br>
 </div>
 
@@ -165,7 +174,7 @@ It's hard not to continually look to see how much time or distance you have left
 
 				<p2>Dumbbell Curls<a href="#"><img src="<?php echo base_url();?>/images/14.jpg" alt=""></a></p2><br><br><br>
 				<p2>Dumbbell Extension<a href="#"><img src="<?php echo base_url();?>/images/15.jpg" alt=""></a></p2><br><br><br>
-				<p2>Bicep Curls<a href="#"><img src="<?php echo base_url();?>/images/33.jpg" alt=""></a></p2><br><br><br>			
+				<p2>Bicep Curls<a href="#"><img src="<?php echo base_url();?>/images/33.jpg" alt=""></a></p2><br><br><br>
 
 
 
@@ -236,6 +245,113 @@ It's hard not to continually look to see how much time or distance you have left
 		</div>
  	</div>
     </div>
+
+<div class="Schedule" id="Schedule1" <?php if((echo $id)===1){?> style="visibility:visible; display:block;"<?php }?>>
+	<p2>Your Schedule For Today</p2>
+	<br><br>
+	<p3>Dumbbell-5kg per Dumbbell First Attempt for 12 Times <br></p3>
+		<p3>Dumbbell-7.5kg per Dumbbell First Attempt for 10 Times <br></p3>
+			<p3>Dumbbell-10kg per Dumbbell First Attempt for 8 Times <br></p3>
+				<p3>Fore-arm-2.5kg per Dumbbell First Attempt for 12 Times <br></p3>
+					<p3>Fore-arm-5kg per Dumbbell First Attempt for 10 Times <br></p3>
+						<p3>Fore-arm-5kg per Dumbbell First Attempt for 8 Times <br></p3>
+							<p3>Dumbbell Extension-5kg per Dumbbell First Attempt for 12 Times <br></p3>
+								<p3>Dumbbell Extension-7.5kg per Dumbbell First Attempt for 10 Times <br></p3>
+									<p3>Dumbbell Extension-10kg per Dumbbell First Attempt for 8 Times <br></p3>
+	</div>
+
+
+
+	<div class="Schedule" id="Schedule2" <?php if((echo $id)===2){?> style="visibility:visible; display:block;"<?php }?>>
+		<p2>Your Schedule For Today</p2>
+		<br><br>
+		<p3>Dumbbell-7.5kg per Dumbbell First Attempt for 12 Times <br></p3>
+			<p3>Dumbbell-10kg per Dumbbell First Attempt for 10 Times <br></p3>
+				<p3>Dumbbell-15kg per Dumbbell First Attempt for 8 Times <br></p3>
+					<p3>Fore-arm-5kg per Dumbbell First Attempt for 12 Times <br></p3>
+						<p3>Fore-arm-5kg per Dumbbell First Attempt for 10 Times <br></p3>
+							<p3>Fore-arm-10kg per Dumbbell First Attempt for 8 Times <br></p3>
+								<p3>Dumbbell Extension-7.5kg per Dumbbell First Attempt for 12 Times <br></p3>
+									<p3>Dumbbell Extension-10kg per Dumbbell First Attempt for 10 Times <br></p3>
+										<p3>Dumbbell Extension-15kg per Dumbbell First Attempt for 8 Times <br></p3>
+										<p3>Military Press 10kg First Attempt for 12 Times <br></p3>
+										<p3>Military Press 12.5kg First Attempt for 10 Times <br></p3>
+										<p3>Military Press 15kg First Attempt for 8 Times <br></p3>
+		</div>
+
+		<div class="Schedule" id="Schedule3" <?php if((echo $id)===3){?> style="visibility:visible; display:block;"<?php }?>>
+			<p2>Your Schedule For Today</p2>
+			<br><br>
+			<p3>Dumbbell-10kg per Dumbbell First Attempt for 12 Times <br></p3>
+				<p3>Dumbbell-15kg per Dumbbell First Attempt for 10 Times <br></p3>
+					<p3>Dumbbell-20kg per Dumbbell First Attempt for 8 Times <br></p3>
+						<p3>Fore-arm-10kg per Dumbbell First Attempt for 12 Times <br></p3>
+							<p3>Fore-arm-10kg per Dumbbell First Attempt for 10 Times <br></p3>
+								<p3>Fore-arm-15kg per Dumbbell First Attempt for 8 Times <br></p3>
+									<p3>Dumbbell Extension-10kg per Dumbbell First Attempt for 12 Times <br></p3>
+										<p3>Dumbbell Extension-15kg per Dumbbell First Attempt for 10 Times <br></p3>
+											<p3>Dumbbell Extension-20kg per Dumbbell First Attempt for 8 Times <br></p3>
+											<p3>Military Press 20kg First Attempt for 12 Times <br></p3>
+											<p3>Military Press 22.5kg First Attempt for 10 Times <br></p3>
+											<p3>Military Press 25kg First Attempt for 8 Times <br></p3>
+											<p3>Dumbbell Press 20kg First Attempt for 12 Times <br></p3>
+											<p3>Dumbbell Press 22.5kg First Attempt for 10 Times <br></p3>
+											<p3>Dumbbell Press 25kg First Attempt for 8 Times <br></p3>
+
+			</div>
+
+			<div class="Schedule" id="Schedule4" <?php if((echo $id)===4){?> style="visibility:visible; display:block;"<?php }?>>
+				<p2>Your Schedule For Today</p2>
+				<br><br>
+				<p3>Dumbbell-15kg per Dumbbell First Attempt for 12 Times <br></p3>
+					<p3>Dumbbell-20kg per Dumbbell First Attempt for 10 Times <br></p3>
+						<p3>Dumbbell-25kg per Dumbbell First Attempt for 8 Times <br></p3>
+							<p3>Fore-arm-10kg per Dumbbell First Attempt for 12 Times <br></p3>
+								<p3>Fore-arm-15kg per Dumbbell First Attempt for 10 Times <br></p3>
+									<p3>Fore-arm-17.5kg per Dumbbell First Attempt for 8 Times <br></p3>
+										<p3>Dumbbell Extension-15kg per Dumbbell First Attempt for 12 Times <br></p3>
+											<p3>Dumbbell Extension-20kg per Dumbbell First Attempt for 10 Times <br></p3>
+												<p3>Dumbbell Extension-25kg per Dumbbell First Attempt for 8 Times <br></p3>
+												<p3>Military Press 25kg First Attempt for 12 Times <br></p3>
+												<p3>Military Press 27.5kg First Attempt for 10 Times <br></p3>
+												<p3>Military Press 30kg First Attempt for 8 Times <br></p3>
+												<p3>Dumbbell Press 25kg First Attempt for 12 Times <br></p3>
+												<p3>Dumbbell Press 27.5kg First Attempt for 10 Times <br></p3>
+												<p3>Dumbbell Press 30kg First Attempt for 8 Times <br></p3>
+
+				</div>
+
+				<div class="Schedule" id="Schedule5" <?php if((echo $id)===5){?> style="visibility:visible; display:block;"<?php }?>>
+					<p2>Your Schedule For Today</p2>
+					<br><br>
+					<p3>Dumbbell-20kg per Dumbbell First Attempt for 12 Times <br></p3>
+						<p3>Dumbbell-25kg per Dumbbell First Attempt for 10 Times <br></p3>
+							<p3>Dumbbell-30kg per Dumbbell First Attempt for 8 Times <br></p3>
+								<p3>Fore-arm-15kg per Dumbbell First Attempt for 12 Times <br></p3>
+									<p3>Fore-arm-17.5kg per Dumbbell First Attempt for 10 Times <br></p3>
+										<p3>Fore-arm-20kg per Dumbbell First Attempt for 8 Times <br></p3>
+											<p3>Dumbbell Extension-20kg per Dumbbell First Attempt for 12 Times <br></p3>
+												<p3>Dumbbell Extension-25kg per Dumbbell First Attempt for 10 Times <br></p3>
+													<p3>Dumbbell Extension-30kg per Dumbbell First Attempt for 8 Times <br></p3>
+													<p3>Military Press 30kg First Attempt for 12 Times <br></p3>
+													<p3>Military Press 35kg First Attempt for 10 Times <br></p3>
+													<p3>Military Press 37.5kg First Attempt for 8 Times <br></p3>
+													<p3>Dumbbell Press 27.5kg First Attempt for 12 Times <br></p3>
+													<p3>Dumbbell Press 30kg First Attempt for 10 Times <br></p3>
+													<p3>Dumbbell Press 35kg First Attempt for 8 Times <br></p3>
+													<p3>Inclined Dumbbell Press 27.5kg First Attempt for 12 Times <br></p3>
+													<p3>Inclined Dumbbell Press 30kg First Attempt for 10 Times <br></p3>
+													<p3>Inclined Dumbbell Press 35kg First Attempt for 8 Times <br></p3>
+
+
+
+					</div>
+
+
+
+
+
+
     </div>
 
 

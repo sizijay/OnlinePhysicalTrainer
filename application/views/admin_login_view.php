@@ -44,32 +44,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
 <!--            <p id="profile-name" class="profile-name-card"></p>-->
           <?php echo validation_errors();?>
-          <?php echo form_open('login/form');?>
-                <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus name="email">
+          <?php echo form_open('Admin_login/form');?>
+                
+                <input type="name" id="inputName" class="form-control" placeholder="Username" required autofocus name="name">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required name="password">
-                <div id="remember" class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
+                
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Login</button>
 
 
-                <a href="<?php echo base_url();?>/index.php/signup"><button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Signup
-
-                  </a>
-                </button>
+                
+                
 
 
 
 
           <?php  echo form_close();?>
-            <a href="#" class="forgot-password">
-                Forgot the password?
-            </a>
-            <br><br><br>
-            <button type="button" class="btn btn-lg btn-primary btn-block btn-signin" ><a href="<?php echo base_url();?>admin_login">Admin Login</a></button>
+            
         </div>
         </div>
 </div>
