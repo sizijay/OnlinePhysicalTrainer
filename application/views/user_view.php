@@ -80,16 +80,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   
     <div class="w3ls-about-grids">
       <div class="col-md-4 col-sm-4 abt-btm-grid w3ls-ma">
-        <img src="images/about1.jpg" class="img-responsive" alt="images"/>
-        
+        <img src="images/type1.jpg" class="img-responsive" alt="images"/>
+        <div class="layer">
+          <h3>Cardio Training</h3>
+          <p>Cardio training is basically aerobic exercise. The purpose of this type of exercise is to make our cardiovascular system (the heart and the lungs) stronger and more efficient.</p>
+        </div>
       </div>
       <div class="col-md-4 col-sm-4 abt-btm-grid w3ls-ma">
-        <img src="images/about2.jpg" class="img-responsive" alt="images"/>
-        
+        <img src="images/type2.jpg" class="img-responsive" alt="images"/>
+        <div class="layer">
+          <h3>Weights</h3>
+          <p>weight exercises improve muscle strength. Deadlifts, lunges, squats, mountain climbers and even the dreaded plank, all help to improve muscle strength</p>
+        </div>
       </div>
       <div class="col-md-4 col-sm-4 abt-btm-grid w3ls-ma">
-        <img src="images/about3.jpg" class="img-responsive" alt="images"/>
-        
+        <img src="images/type3.jpg" class="img-responsive" alt="images"/>
+        <div class="layer">
+          <h3>Flexibility Training</h3>
+          <p>improve overall flexibility, balance, and posture as well as increasing the range of movement of our joints. It enhances our coordination skills, motor control, and agility.</p>
+        </div>
       </div>
       <div class="clearfix"></div>
     </div>

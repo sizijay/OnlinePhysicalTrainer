@@ -70,8 +70,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   <h3 class="title-w3-agile">Classes</h3>
 		   <div class="classes_wrapper">
 		 	 <div class="row class_box">
-<!---Excercises for the Beginner Trainers----------------------------------------------------------------------------------------------------------->
-				<a href="<?php echo base_url();?>Registered_Exercise">Calorie Sheet</a><br>
+
+				
 				<div class="class_left img2"></div>
 				<div class="class_left img1"></div>
 				<div class="square">
@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p1>Step2 : Work on your Biceps,Shoulders and ForeArms</p1><br>
 				<li class=""><a href="#"><img src="<?php echo base_url();?>/images/22.jpg" alt=""></a></li>
 
-<!---Excercises for the Intermediate Trainers------------------------------------------------------------------------------------------------------------------>
+<!-- Excercises for the Intermediate Trainers -->
 <div class="square">
 	<h3>INTERMEDIATE</h3>
 	<p>Hello there ! Hope Everything is fine..</p>
@@ -122,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <p1>Work on your Triceps</p1><br>
 <li class=""><a href="#"><img src="<?php echo base_url();?>/images/25.jpg" alt=""></a></li>
 
-<!---Excercises for the Pro Trainers------------------------------------------------------------------------------------------------------------------>
+<!-- Excercises for the Pro Trainers -->
 
 
 <div class="square">

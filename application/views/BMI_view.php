@@ -71,13 +71,31 @@ h3 {
       <div class="w3ls_banner_bottom_grids">
         <div class="col-md-6 w3_agileits_about_grid_left">
         
+          
+          <p><b><i>Your body mass index, or BMI, is a measure of your body fat based on your height and weight, according to the National Heart, Lung and Blood Institute. In order to be at an ideal weight, you must have a BMI of 18.5 to 24.9. A BMI of 25 to 29.9 is considered overweight, and below 18.5 is considered underweight.</i></b></p>
+          <br><br>
           <h1>Your BMI is: <?php echo $BMI; ?> </h1>
           <br><br><br>
-          <p>Your body mass index, or BMI, is a measure of your body fat based on your height and weight, according to the National Heart, Lung and Blood Institute. In order to be at an ideal weight, you must have a BMI of 18.5 to 24.9. A BMI of 25 to 29.9 is considered overweight, and below 18.5 is considered underweight.</p>
-          <br><br><br>
-          
-          
+          <?php 
+            if($BMI <18.5){
+               print "<strong>You are Under weight<br></strong>";
+              print "<strong>The key to healthy weight gain is to choose nutrient-rich foods as often as possible. Consuming more empty-calorie foods such as soft drinks, candy and chips is not a successful way to build muscle, strengthen bones or repair tissue after surgery. For smart weight gain, you need the nutrient power of all the food groups</strong>";
+            }
 
+            elseif ($BMI >30) {
+              print "<strong>You have normal weight<br></strong>";
+               print "<strong>It’s natural for anyone trying to lose weight to want to lose it very quickly. But evidence shows that people who lose weight gradually and steadily (about 1 to 2 pounds per week) are more successful at keeping weight off. Healthy weight loss isn’t just about a “diet” or “program”. It’s about an ongoing lifestyle that includes long-term changes in daily eating and exercise habits.To lose weight, you must use up more calories than you take in. Since one pound equals 3,500 calories, you need to reduce your caloric intake by 500—1000 calories per day to lose about 1 to 2 pounds per week</strong>";
+            }
+
+            else {
+              print "<strong>You are over weight<br></strong>";
+              print "<strong>you’re currently at a healthy weight, you’re already one step ahead of the game. To stay at a healthy weight, it’s worth doing a little planning now. Or maybe you are overweight but aren’t ready to lose weight yet. If this is the case, preventing further weight gain is a worthy goal.As people age, their body composition gradually shifts — the proportion of muscle decreases and the proportion of fat increases. This shift slows their metabolism, making it easier to gain weight. In addition, some people become less physically active as they get older, increasing the risk of weight gain.</strong>";
+            }
+
+
+          ?>
+          
+          <br><br><br>
 
           <div><input type="button" value="  Back  " onclick="window.location.href='<?php echo base_url();?>User'" /></div>
  

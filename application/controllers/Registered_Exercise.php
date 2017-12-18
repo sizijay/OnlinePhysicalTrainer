@@ -6,8 +6,8 @@ Class Registered_Exercise extends CI_Controller {
 
 
 		$this->load->model('exercise_model');
-		$result = $this->exercise_model->training_schedule();
-		$data1['id']=$result;
+		$result = $this->exercise_model->fetch_data();
+		$data['id']=$result->schedule_schedule_no;
 
 
 		$this->load->view('registered_exercise_view',$data);

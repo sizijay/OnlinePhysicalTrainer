@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="<?php echo base_url();?>user" data-anchor="active">Home</a></li>
-                    <li><a href="<?php echo base_url();?>exercise_user">Training Programes</a></li>
+                    <li><a href="<?php echo base_url();?>registered_exercise">Training Programes</a></li>
                     <li><a href="<?php echo base_url();?>Nutrition_user">Nutrition Plans</a></li>
                     <li><a href="<?php echo base_url();?>Review_user">Gallery</a></li>
                     <li><a href="<?php echo base_url();?>contact_user" >Contact</a></li>

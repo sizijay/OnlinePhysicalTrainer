@@ -246,7 +246,9 @@ It's hard not to continually look to see how much time or distance you have left
  	</div>
     </div>
 
-<div class="Schedule" id="Schedule1" <?php if((echo $id)===1){?> style="visibility:visible; display:block;"<?php }?>>
+
+<?php if($id=='1'): ?>
+<div class="Schedule" id="Schedule1" style="visibility:visible; display:block;">
 	<p2>Your Schedule For Today</p2>
 	<br><br>
 	<p3>Dumbbell-5kg per Dumbbell First Attempt for 12 Times <br></p3>
@@ -260,9 +262,9 @@ It's hard not to continually look to see how much time or distance you have left
 									<p3>Dumbbell Extension-10kg per Dumbbell First Attempt for 8 Times <br></p3>
 	</div>
 
+<?php elseif($id=='2'): ?>
 
-
-	<div class="Schedule" id="Schedule2" <?php if((echo $id)===2){?> style="visibility:visible; display:block;"<?php }?>>
+	<div class="Schedule" id="Schedule2"  style="visibility:visible; display:block;">
 		<p2>Your Schedule For Today</p2>
 		<br><br>
 		<p3>Dumbbell-7.5kg per Dumbbell First Attempt for 12 Times <br></p3>
@@ -279,7 +281,9 @@ It's hard not to continually look to see how much time or distance you have left
 										<p3>Military Press 15kg First Attempt for 8 Times <br></p3>
 		</div>
 
-		<div class="Schedule" id="Schedule3" <?php if((echo $id)===3){?> style="visibility:visible; display:block;"<?php }?>>
+	<?php elseif($id=='3'): ?>
+
+		<div class="Schedule" id="Schedule3" style="visibility:visible; display:block;">
 			<p2>Your Schedule For Today</p2>
 			<br><br>
 			<p3>Dumbbell-10kg per Dumbbell First Attempt for 12 Times <br></p3>
@@ -300,7 +304,9 @@ It's hard not to continually look to see how much time or distance you have left
 
 			</div>
 
-			<div class="Schedule" id="Schedule4" <?php if((echo $id)===4){?> style="visibility:visible; display:block;"<?php }?>>
+		<?php elseif($id=='4'): ?>
+
+			<div class="Schedule" id="Schedule4" <?php if($id===4){?> style="visibility:visible; display:block;"<?php }?>>
 				<p2>Your Schedule For Today</p2>
 				<br><br>
 				<p3>Dumbbell-15kg per Dumbbell First Attempt for 12 Times <br></p3>
@@ -321,7 +327,9 @@ It's hard not to continually look to see how much time or distance you have left
 
 				</div>
 
-				<div class="Schedule" id="Schedule5" <?php if((echo $id)===5){?> style="visibility:visible; display:block;"<?php }?>>
+			<?php elseif($id=='5'): ?>
+
+				<div class="Schedule" id="Schedule5" <?php if($id===5){?> style="visibility:visible; display:block;"<?php }?>>
 					<p2>Your Schedule For Today</p2>
 					<br><br>
 					<p3>Dumbbell-20kg per Dumbbell First Attempt for 12 Times <br></p3>
@@ -346,6 +354,7 @@ It's hard not to continually look to see how much time or distance you have left
 
 
 					</div>
+								<?php endif;?>
 
 
 
